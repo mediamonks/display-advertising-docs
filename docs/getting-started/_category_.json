@@ -1,0 +1,10 @@
+{
+  "label": "Getting started",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "With the following guide you can conquer the dimension of the units!"
+  }
+}

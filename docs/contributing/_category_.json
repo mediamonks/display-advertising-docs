@@ -1,0 +1,10 @@
+{
+  "label": "Contributing",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Contributing to the framework"
+  }
+}
