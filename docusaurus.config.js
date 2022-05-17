@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Display Advertising Documentation',
   tagline: 'All the documentation that you will need to create, develop and build display units.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://github.com/mediamonks/display-advertising-docs',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'media.monks', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'mediamonks', // Usually your GitHub org/user name.
+  projectName: 'display-advertising-docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -75,7 +75,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: true
+        disableSwitch: false
       },
       navbar: {
         title: 'Media.Monks DisplayAd',
