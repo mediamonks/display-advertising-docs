@@ -9,10 +9,13 @@ const config = {
   title: 'Display Advertising Documentation',
   tagline: 'All the documentation that you will need to create, develop and build display units.',
   url: '/',
-  baseUrl: '/', // https://github.com/mediamonks/display-advertising-docs
+  baseUrl: 'https://mediamonks.github.io/display-advertising-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+
+  // https://github.com/mediamonks/display-advertising-docs
+  // https://mediamonks.github.io/display-advertising-docs/index.html
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
