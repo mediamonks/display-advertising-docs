@@ -191,9 +191,15 @@
     "179": {
       "js": [
         {
+<<<<<<< HEAD
           "file": "assets/js/main.cf5a3b9a.js",
           "hash": "fd060f42890ca6be",
           "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/main.cf5a3b9a.js"
+=======
+          "file": "assets/js/main.3ec77b99.js",
+          "hash": "b0938ef07e0d19d1",
+          "publicPath": "/assets/js/main.3ec77b99.js"
+>>>>>>> 982f282efcd47a30face46abad7a4b97df5c30f2
         }
       ]
     },
@@ -227,9 +233,15 @@
     "303": {
       "js": [
         {
+<<<<<<< HEAD
           "file": "assets/js/runtime~main.f2d66fe2.js",
           "hash": "21a0a747174fab81",
           "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/runtime~main.f2d66fe2.js"
+=======
+          "file": "assets/js/runtime~main.8b5ad33c.js",
+          "hash": "f88e7a20ab03eaaa",
+          "publicPath": "/assets/js/runtime~main.8b5ad33c.js"
+>>>>>>> 982f282efcd47a30face46abad7a4b97df5c30f2
         }
       ]
     },
