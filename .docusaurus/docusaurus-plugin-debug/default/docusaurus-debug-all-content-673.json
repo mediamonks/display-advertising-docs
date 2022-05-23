@@ -8,8 +8,8 @@
           "banner": null,
           "badge": false,
           "className": "docs-version-current",
-          "path": "/docs",
-          "tagsPath": "/docs/tags",
+          "path": "/display-advertising-docs/docs",
+          "tagsPath": "/display-advertising-docs/docs/tags",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
@@ -26,7 +26,7 @@
               "source": "@site/docs/banner-validation.md",
               "sourceDirName": ".",
               "slug": "/banner-validation",
-              "permalink": "/docs/banner-validation",
+              "permalink": "/display-advertising-docs/docs/banner-validation",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/banner-validation.md",
               "tags": [],
@@ -38,11 +38,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Configuration files",
-                "permalink": "/docs/richmediarc"
+                "permalink": "/display-advertising-docs/docs/richmediarc"
               },
               "next": {
                 "title": "Guides",
-                "permalink": "/docs/category/guides"
+                "permalink": "/display-advertising-docs/docs/category/guides"
               }
             },
             {
@@ -53,7 +53,7 @@
               "source": "@site/docs/contributing/contributing-display-docs.md",
               "sourceDirName": "contributing",
               "slug": "/contributing/contributing-display-docs",
-              "permalink": "/docs/contributing/contributing-display-docs",
+              "permalink": "/display-advertising-docs/docs/contributing/contributing-display-docs",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/contributing-display-docs.md",
               "tags": [],
@@ -65,11 +65,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Contributing",
-                "permalink": "/docs/category/contributing"
+                "permalink": "/display-advertising-docs/docs/category/contributing"
               },
               "next": {
                 "title": "How to create an issue (ticket)",
-                "permalink": "/docs/contributing/create-issue"
+                "permalink": "/display-advertising-docs/docs/contributing/create-issue"
               }
             },
             {
@@ -80,7 +80,7 @@
               "source": "@site/docs/contributing/create-issue.md",
               "sourceDirName": "contributing",
               "slug": "/contributing/create-issue",
-              "permalink": "/docs/contributing/create-issue",
+              "permalink": "/display-advertising-docs/docs/contributing/create-issue",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/create-issue.md",
               "tags": [],
@@ -92,7 +92,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "How to update DisplayAd Docs",
-                "permalink": "/docs/contributing/contributing-display-docs"
+                "permalink": "/display-advertising-docs/docs/contributing/contributing-display-docs"
               }
             },
             {
@@ -103,7 +103,7 @@
               "source": "@site/docs/getting-started/creating-a-new-project.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/creating-a-new-project",
-              "permalink": "/docs/getting-started/creating-a-new-project",
+              "permalink": "/display-advertising-docs/docs/getting-started/creating-a-new-project",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/creating-a-new-project.md",
               "tags": [],
@@ -115,11 +115,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Installation",
-                "permalink": "/docs/getting-started/installation"
+                "permalink": "/display-advertising-docs/docs/getting-started/installation"
               },
               "next": {
                 "title": "Start the server",
-                "permalink": "/docs/getting-started/start-the-server"
+                "permalink": "/display-advertising-docs/docs/getting-started/start-the-server"
               }
             },
             {
@@ -130,7 +130,7 @@
               "source": "@site/docs/getting-started/generate-a-build.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/generate-a-build",
-              "permalink": "/docs/getting-started/generate-a-build",
+              "permalink": "/display-advertising-docs/docs/getting-started/generate-a-build",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/generate-a-build.md",
               "tags": [],
@@ -142,11 +142,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Start the server",
-                "permalink": "/docs/getting-started/start-the-server"
+                "permalink": "/display-advertising-docs/docs/getting-started/start-the-server"
               },
               "next": {
                 "title": "Upload a preview",
-                "permalink": "/docs/getting-started/upload-a-preview"
+                "permalink": "/display-advertising-docs/docs/getting-started/upload-a-preview"
               }
             },
             {
@@ -157,7 +157,7 @@
               "source": "@site/docs/getting-started/installation.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/installation",
-              "permalink": "/docs/getting-started/installation",
+              "permalink": "/display-advertising-docs/docs/getting-started/installation",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/installation.md",
               "tags": [],
@@ -169,11 +169,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Getting started",
-                "permalink": "/docs/category/getting-started"
+                "permalink": "/display-advertising-docs/docs/category/getting-started"
               },
               "next": {
                 "title": "Creating a new project",
-                "permalink": "/docs/getting-started/creating-a-new-project"
+                "permalink": "/display-advertising-docs/docs/getting-started/creating-a-new-project"
               }
             },
             {
@@ -184,7 +184,7 @@
               "source": "@site/docs/getting-started/start-the-server.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/start-the-server",
-              "permalink": "/docs/getting-started/start-the-server",
+              "permalink": "/display-advertising-docs/docs/getting-started/start-the-server",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/start-the-server.md",
               "tags": [],
@@ -196,11 +196,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Creating a new project",
-                "permalink": "/docs/getting-started/creating-a-new-project"
+                "permalink": "/display-advertising-docs/docs/getting-started/creating-a-new-project"
               },
               "next": {
                 "title": "Generate a build",
-                "permalink": "/docs/getting-started/generate-a-build"
+                "permalink": "/display-advertising-docs/docs/getting-started/generate-a-build"
               }
             },
             {
@@ -211,7 +211,7 @@
               "source": "@site/docs/getting-started/upload-a-preview.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/upload-a-preview",
-              "permalink": "/docs/getting-started/upload-a-preview",
+              "permalink": "/display-advertising-docs/docs/getting-started/upload-a-preview",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/upload-a-preview.md",
               "tags": [],
@@ -223,11 +223,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Generate a build",
-                "permalink": "/docs/getting-started/generate-a-build"
+                "permalink": "/display-advertising-docs/docs/getting-started/generate-a-build"
               },
               "next": {
                 "title": "Configuration files",
-                "permalink": "/docs/richmediarc"
+                "permalink": "/display-advertising-docs/docs/richmediarc"
               }
             },
             {
@@ -238,7 +238,7 @@
               "source": "@site/docs/guides/commands.md",
               "sourceDirName": "guides",
               "slug": "/guides/commands",
-              "permalink": "/docs/guides/commands",
+              "permalink": "/display-advertising-docs/docs/guides/commands",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/commands.md",
               "tags": [],
@@ -250,11 +250,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Data binding",
-                "permalink": "/docs/guides/dataBind"
+                "permalink": "/display-advertising-docs/docs/guides/dataBind"
               },
               "next": {
                 "title": "Extends Animation",
-                "permalink": "/docs/guides/extends-animation"
+                "permalink": "/display-advertising-docs/docs/guides/extends-animation"
               }
             },
             {
@@ -265,7 +265,7 @@
               "source": "@site/docs/guides/dataBind.md",
               "sourceDirName": "guides",
               "slug": "/guides/dataBind",
-              "permalink": "/docs/guides/dataBind",
+              "permalink": "/display-advertising-docs/docs/guides/dataBind",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/dataBind.md",
               "tags": [],
@@ -277,11 +277,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Spreadsheets in the feed",
-                "permalink": "/docs/guides/google-spreadsheets-feed"
+                "permalink": "/display-advertising-docs/docs/guides/google-spreadsheets-feed"
               },
               "next": {
                 "title": "Create banners with commands",
-                "permalink": "/docs/guides/commands"
+                "permalink": "/display-advertising-docs/docs/guides/commands"
               }
             },
             {
@@ -292,7 +292,7 @@
               "source": "@site/docs/guides/dco.md",
               "sourceDirName": "guides",
               "slug": "/guides/dco",
-              "permalink": "/docs/guides/dco",
+              "permalink": "/display-advertising-docs/docs/guides/dco",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/dco.md",
               "tags": [],
@@ -304,11 +304,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "GSDevTools",
-                "permalink": "/docs/guides/GSDevTools"
+                "permalink": "/display-advertising-docs/docs/guides/GSDevTools"
               },
               "next": {
                 "title": "Contributing",
-                "permalink": "/docs/category/contributing"
+                "permalink": "/display-advertising-docs/docs/category/contributing"
               }
             },
             {
@@ -319,7 +319,7 @@
               "source": "@site/docs/guides/extends-animation.md",
               "sourceDirName": "guides",
               "slug": "/guides/extends-animation",
-              "permalink": "/docs/guides/extends-animation",
+              "permalink": "/display-advertising-docs/docs/guides/extends-animation",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/extends-animation.md",
               "tags": [],
@@ -331,11 +331,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create banners with commands",
-                "permalink": "/docs/guides/commands"
+                "permalink": "/display-advertising-docs/docs/guides/commands"
               },
               "next": {
                 "title": "GSDevTools",
-                "permalink": "/docs/guides/GSDevTools"
+                "permalink": "/display-advertising-docs/docs/guides/GSDevTools"
               }
             },
             {
@@ -346,7 +346,7 @@
               "source": "@site/docs/guides/font-subsetting.md",
               "sourceDirName": "guides",
               "slug": "/guides/font-subsetting",
-              "permalink": "/docs/guides/font-subsetting",
+              "permalink": "/display-advertising-docs/docs/guides/font-subsetting",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/font-subsetting.md",
               "tags": [],
@@ -358,11 +358,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Temple utils",
-                "permalink": "/docs/guides/using-utils"
+                "permalink": "/display-advertising-docs/docs/guides/using-utils"
               },
               "next": {
                 "title": "Inline SVG",
-                "permalink": "/docs/guides/inline-svg"
+                "permalink": "/display-advertising-docs/docs/guides/inline-svg"
               }
             },
             {
@@ -373,7 +373,7 @@
               "source": "@site/docs/guides/google-spreadsheets-feed.md",
               "sourceDirName": "guides",
               "slug": "/guides/google-spreadsheets-feed",
-              "permalink": "/docs/guides/google-spreadsheets-feed",
+              "permalink": "/display-advertising-docs/docs/guides/google-spreadsheets-feed",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/google-spreadsheets-feed.md",
               "tags": [],
@@ -385,11 +385,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Inline SVG",
-                "permalink": "/docs/guides/inline-svg"
+                "permalink": "/display-advertising-docs/docs/guides/inline-svg"
               },
               "next": {
                 "title": "Data binding",
-                "permalink": "/docs/guides/dataBind"
+                "permalink": "/display-advertising-docs/docs/guides/dataBind"
               }
             },
             {
@@ -400,7 +400,7 @@
               "source": "@site/docs/guides/GSDevTools.md",
               "sourceDirName": "guides",
               "slug": "/guides/GSDevTools",
-              "permalink": "/docs/guides/GSDevTools",
+              "permalink": "/display-advertising-docs/docs/guides/GSDevTools",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/GSDevTools.md",
               "tags": [],
@@ -412,11 +412,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Extends Animation",
-                "permalink": "/docs/guides/extends-animation"
+                "permalink": "/display-advertising-docs/docs/guides/extends-animation"
               },
               "next": {
                 "title": "Dynamic Creative Optimization",
-                "permalink": "/docs/guides/dco"
+                "permalink": "/display-advertising-docs/docs/guides/dco"
               }
             },
             {
@@ -427,7 +427,7 @@
               "source": "@site/docs/guides/inline-svg.md",
               "sourceDirName": "guides",
               "slug": "/guides/inline-svg",
-              "permalink": "/docs/guides/inline-svg",
+              "permalink": "/display-advertising-docs/docs/guides/inline-svg",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/inline-svg.md",
               "tags": [],
@@ -439,11 +439,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Font Subsetting",
-                "permalink": "/docs/guides/font-subsetting"
+                "permalink": "/display-advertising-docs/docs/guides/font-subsetting"
               },
               "next": {
                 "title": "Spreadsheets in the feed",
-                "permalink": "/docs/guides/google-spreadsheets-feed"
+                "permalink": "/display-advertising-docs/docs/guides/google-spreadsheets-feed"
               }
             },
             {
@@ -454,7 +454,7 @@
               "source": "@site/docs/guides/using-handlebars.md",
               "sourceDirName": "guides",
               "slug": "/guides/using-handlebars",
-              "permalink": "/docs/guides/using-handlebars",
+              "permalink": "/display-advertising-docs/docs/guides/using-handlebars",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/using-handlebars.md",
               "tags": [],
@@ -466,11 +466,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Guides",
-                "permalink": "/docs/category/guides"
+                "permalink": "/display-advertising-docs/docs/category/guides"
               },
               "next": {
                 "title": "Temple utils",
-                "permalink": "/docs/guides/using-utils"
+                "permalink": "/display-advertising-docs/docs/guides/using-utils"
               }
             },
             {
@@ -481,7 +481,7 @@
               "source": "@site/docs/guides/using-utils.md",
               "sourceDirName": "guides",
               "slug": "/guides/using-utils",
-              "permalink": "/docs/guides/using-utils",
+              "permalink": "/display-advertising-docs/docs/guides/using-utils",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/using-utils.md",
               "tags": [],
@@ -493,11 +493,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Good practices with Handlebars",
-                "permalink": "/docs/guides/using-handlebars"
+                "permalink": "/display-advertising-docs/docs/guides/using-handlebars"
               },
               "next": {
                 "title": "Font Subsetting",
-                "permalink": "/docs/guides/font-subsetting"
+                "permalink": "/display-advertising-docs/docs/guides/font-subsetting"
               }
             },
             {
@@ -508,7 +508,7 @@
               "source": "@site/docs/richmediarc.md",
               "sourceDirName": ".",
               "slug": "/richmediarc",
-              "permalink": "/docs/richmediarc",
+              "permalink": "/display-advertising-docs/docs/richmediarc",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/richmediarc.md",
               "tags": [],
@@ -520,11 +520,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Upload a preview",
-                "permalink": "/docs/getting-started/upload-a-preview"
+                "permalink": "/display-advertising-docs/docs/getting-started/upload-a-preview"
               },
               "next": {
                 "title": "Banner Validation",
-                "permalink": "/docs/banner-validation"
+                "permalink": "/display-advertising-docs/docs/banner-validation"
               }
             }
           ],
@@ -562,7 +562,7 @@
                   "type": "generated-index",
                   "description": "With the following guide you can conquer the dimension of the units!",
                   "slug": "/category/getting-started",
-                  "permalink": "/docs/category/getting-started"
+                  "permalink": "/display-advertising-docs/docs/category/getting-started"
                 }
               },
               {
@@ -624,7 +624,7 @@
                   "type": "generated-index",
                   "description": "Features of the framework",
                   "slug": "/category/guides",
-                  "permalink": "/docs/category/guides"
+                  "permalink": "/display-advertising-docs/docs/category/guides"
                 }
               },
               {
@@ -646,7 +646,7 @@
                   "type": "generated-index",
                   "description": "Contributing to the framework",
                   "slug": "/category/contributing",
-                  "permalink": "/docs/category/contributing"
+                  "permalink": "/display-advertising-docs/docs/category/contributing"
                 }
               }
             ]
@@ -659,7 +659,7 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/",
+        "permalink": "/display-advertising-docs/",
         "source": "@site/src/pages/index.js"
       }
     ]

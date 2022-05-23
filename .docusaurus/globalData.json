@@ -1,123 +1,123 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/display-advertising-docs/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/display-advertising-docs/docs",
           "mainDocId": "getting-started/installation",
           "docs": [
             {
               "id": "banner-validation",
-              "path": "/docs/banner-validation",
+              "path": "/display-advertising-docs/docs/banner-validation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "contributing/contributing-display-docs",
-              "path": "/docs/contributing/contributing-display-docs",
+              "path": "/display-advertising-docs/docs/contributing/contributing-display-docs",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "contributing/create-issue",
-              "path": "/docs/contributing/create-issue",
+              "path": "/display-advertising-docs/docs/contributing/create-issue",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/creating-a-new-project",
-              "path": "/docs/getting-started/creating-a-new-project",
+              "path": "/display-advertising-docs/docs/getting-started/creating-a-new-project",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/generate-a-build",
-              "path": "/docs/getting-started/generate-a-build",
+              "path": "/display-advertising-docs/docs/getting-started/generate-a-build",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/installation",
-              "path": "/docs/getting-started/installation",
+              "path": "/display-advertising-docs/docs/getting-started/installation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/start-the-server",
-              "path": "/docs/getting-started/start-the-server",
+              "path": "/display-advertising-docs/docs/getting-started/start-the-server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/upload-a-preview",
-              "path": "/docs/getting-started/upload-a-preview",
+              "path": "/display-advertising-docs/docs/getting-started/upload-a-preview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/commands",
-              "path": "/docs/guides/commands",
+              "path": "/display-advertising-docs/docs/guides/commands",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/dataBind",
-              "path": "/docs/guides/dataBind",
+              "path": "/display-advertising-docs/docs/guides/dataBind",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/dco",
-              "path": "/docs/guides/dco",
+              "path": "/display-advertising-docs/docs/guides/dco",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/extends-animation",
-              "path": "/docs/guides/extends-animation",
+              "path": "/display-advertising-docs/docs/guides/extends-animation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/font-subsetting",
-              "path": "/docs/guides/font-subsetting",
+              "path": "/display-advertising-docs/docs/guides/font-subsetting",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/google-spreadsheets-feed",
-              "path": "/docs/guides/google-spreadsheets-feed",
+              "path": "/display-advertising-docs/docs/guides/google-spreadsheets-feed",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/GSDevTools",
-              "path": "/docs/guides/GSDevTools",
+              "path": "/display-advertising-docs/docs/guides/GSDevTools",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/inline-svg",
-              "path": "/docs/guides/inline-svg",
+              "path": "/display-advertising-docs/docs/guides/inline-svg",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/using-handlebars",
-              "path": "/docs/guides/using-handlebars",
+              "path": "/display-advertising-docs/docs/guides/using-handlebars",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/using-utils",
-              "path": "/docs/guides/using-utils",
+              "path": "/display-advertising-docs/docs/guides/using-utils",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "richmediarc",
-              "path": "/docs/richmediarc",
+              "path": "/display-advertising-docs/docs/richmediarc",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/getting-started",
-              "path": "/docs/category/getting-started",
+              "path": "/display-advertising-docs/docs/category/getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/guides",
-              "path": "/docs/category/guides",
+              "path": "/display-advertising-docs/docs/category/guides",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/contributing",
-              "path": "/docs/category/contributing",
+              "path": "/display-advertising-docs/docs/category/contributing",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -125,7 +125,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/category/getting-started",
+                "path": "/display-advertising-docs/docs/category/getting-started",
                 "label": "Getting started"
               }
             }

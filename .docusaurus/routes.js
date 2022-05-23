@@ -3,151 +3,186 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/search',
-    component: ComponentCreator('/search', '677'),
+    path: '/display-advertising-docs/__docusaurus/debug',
+    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug', '7bf'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '39c'),
+    path: '/display-advertising-docs/__docusaurus/debug/config',
+    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/config', '923'),
+    exact: true
+  },
+  {
+    path: '/display-advertising-docs/__docusaurus/debug/content',
+    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/content', 'cc5'),
+    exact: true
+  },
+  {
+    path: '/display-advertising-docs/__docusaurus/debug/globalData',
+    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/globalData', 'f4a'),
+    exact: true
+  },
+  {
+    path: '/display-advertising-docs/__docusaurus/debug/metadata',
+    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/metadata', '9c5'),
+    exact: true
+  },
+  {
+    path: '/display-advertising-docs/__docusaurus/debug/registry',
+    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/registry', 'a86'),
+    exact: true
+  },
+  {
+    path: '/display-advertising-docs/__docusaurus/debug/routes',
+    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/routes', '160'),
+    exact: true
+  },
+  {
+    path: '/display-advertising-docs/search',
+    component: ComponentCreator('/display-advertising-docs/search', '3f3'),
+    exact: true
+  },
+  {
+    path: '/display-advertising-docs/docs',
+    component: ComponentCreator('/display-advertising-docs/docs', '9ca'),
     routes: [
       {
-        path: '/docs/banner-validation',
-        component: ComponentCreator('/docs/banner-validation', '9f0'),
+        path: '/display-advertising-docs/docs/banner-validation',
+        component: ComponentCreator('/display-advertising-docs/docs/banner-validation', '8f4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/contributing',
-        component: ComponentCreator('/docs/category/contributing', '9f4'),
+        path: '/display-advertising-docs/docs/category/contributing',
+        component: ComponentCreator('/display-advertising-docs/docs/category/contributing', 'f73'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/getting-started',
-        component: ComponentCreator('/docs/category/getting-started', '01f'),
+        path: '/display-advertising-docs/docs/category/getting-started',
+        component: ComponentCreator('/display-advertising-docs/docs/category/getting-started', '260'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/guides',
-        component: ComponentCreator('/docs/category/guides', '1cd'),
+        path: '/display-advertising-docs/docs/category/guides',
+        component: ComponentCreator('/display-advertising-docs/docs/category/guides', 'e6b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/contributing/contributing-display-docs',
-        component: ComponentCreator('/docs/contributing/contributing-display-docs', '60f'),
+        path: '/display-advertising-docs/docs/contributing/contributing-display-docs',
+        component: ComponentCreator('/display-advertising-docs/docs/contributing/contributing-display-docs', '933'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/contributing/create-issue',
-        component: ComponentCreator('/docs/contributing/create-issue', 'cf6'),
+        path: '/display-advertising-docs/docs/contributing/create-issue',
+        component: ComponentCreator('/display-advertising-docs/docs/contributing/create-issue', '6d4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/getting-started/creating-a-new-project',
-        component: ComponentCreator('/docs/getting-started/creating-a-new-project', '45b'),
+        path: '/display-advertising-docs/docs/getting-started/creating-a-new-project',
+        component: ComponentCreator('/display-advertising-docs/docs/getting-started/creating-a-new-project', '34a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/getting-started/generate-a-build',
-        component: ComponentCreator('/docs/getting-started/generate-a-build', 'c31'),
+        path: '/display-advertising-docs/docs/getting-started/generate-a-build',
+        component: ComponentCreator('/display-advertising-docs/docs/getting-started/generate-a-build', 'fb8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/getting-started/installation',
-        component: ComponentCreator('/docs/getting-started/installation', '490'),
+        path: '/display-advertising-docs/docs/getting-started/installation',
+        component: ComponentCreator('/display-advertising-docs/docs/getting-started/installation', 'f98'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/getting-started/start-the-server',
-        component: ComponentCreator('/docs/getting-started/start-the-server', 'cad'),
+        path: '/display-advertising-docs/docs/getting-started/start-the-server',
+        component: ComponentCreator('/display-advertising-docs/docs/getting-started/start-the-server', 'a10'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/getting-started/upload-a-preview',
-        component: ComponentCreator('/docs/getting-started/upload-a-preview', '635'),
+        path: '/display-advertising-docs/docs/getting-started/upload-a-preview',
+        component: ComponentCreator('/display-advertising-docs/docs/getting-started/upload-a-preview', '052'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/guides/commands',
-        component: ComponentCreator('/docs/guides/commands', 'ebf'),
+        path: '/display-advertising-docs/docs/guides/commands',
+        component: ComponentCreator('/display-advertising-docs/docs/guides/commands', 'd41'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/guides/dataBind',
-        component: ComponentCreator('/docs/guides/dataBind', '91c'),
+        path: '/display-advertising-docs/docs/guides/dataBind',
+        component: ComponentCreator('/display-advertising-docs/docs/guides/dataBind', '9d2'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/guides/dco',
-        component: ComponentCreator('/docs/guides/dco', '97e'),
+        path: '/display-advertising-docs/docs/guides/dco',
+        component: ComponentCreator('/display-advertising-docs/docs/guides/dco', '71d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/guides/extends-animation',
-        component: ComponentCreator('/docs/guides/extends-animation', '09a'),
+        path: '/display-advertising-docs/docs/guides/extends-animation',
+        component: ComponentCreator('/display-advertising-docs/docs/guides/extends-animation', '174'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/guides/font-subsetting',
-        component: ComponentCreator('/docs/guides/font-subsetting', 'f9f'),
+        path: '/display-advertising-docs/docs/guides/font-subsetting',
+        component: ComponentCreator('/display-advertising-docs/docs/guides/font-subsetting', 'cbe'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/guides/google-spreadsheets-feed',
-        component: ComponentCreator('/docs/guides/google-spreadsheets-feed', 'fba'),
+        path: '/display-advertising-docs/docs/guides/google-spreadsheets-feed',
+        component: ComponentCreator('/display-advertising-docs/docs/guides/google-spreadsheets-feed', '595'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/guides/GSDevTools',
-        component: ComponentCreator('/docs/guides/GSDevTools', '1b1'),
+        path: '/display-advertising-docs/docs/guides/GSDevTools',
+        component: ComponentCreator('/display-advertising-docs/docs/guides/GSDevTools', '84d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/guides/inline-svg',
-        component: ComponentCreator('/docs/guides/inline-svg', 'c07'),
+        path: '/display-advertising-docs/docs/guides/inline-svg',
+        component: ComponentCreator('/display-advertising-docs/docs/guides/inline-svg', '2e6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/guides/using-handlebars',
-        component: ComponentCreator('/docs/guides/using-handlebars', '3b6'),
+        path: '/display-advertising-docs/docs/guides/using-handlebars',
+        component: ComponentCreator('/display-advertising-docs/docs/guides/using-handlebars', '54a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/guides/using-utils',
-        component: ComponentCreator('/docs/guides/using-utils', '714'),
+        path: '/display-advertising-docs/docs/guides/using-utils',
+        component: ComponentCreator('/display-advertising-docs/docs/guides/using-utils', '66d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/richmediarc',
-        component: ComponentCreator('/docs/richmediarc', 'ead'),
+        path: '/display-advertising-docs/docs/richmediarc',
+        component: ComponentCreator('/display-advertising-docs/docs/richmediarc', 'a30'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '9f4'),
+    path: '/display-advertising-docs/',
+    component: ComponentCreator('/display-advertising-docs/', '20d'),
     exact: true
   },
   {

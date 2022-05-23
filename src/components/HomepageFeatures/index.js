@@ -13,7 +13,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Generator Display Boilerplate',
+    title: 'Display Boilerplate',
     Svg: require('@site/static/img/generatorRule.svg').default,
     description: (
       <>
@@ -30,11 +30,20 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'Display Upload',
+    Svg: require('@site/static/img/displayUpload.svg').default,
+    description: (
+      <>
+        Uploading files to a location. Through the command line.
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

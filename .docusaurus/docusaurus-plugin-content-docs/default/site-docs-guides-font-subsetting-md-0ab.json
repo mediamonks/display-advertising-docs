@@ -6,7 +6,7 @@
   "source": "@site/docs/guides/font-subsetting.md",
   "sourceDirName": "guides",
   "slug": "/guides/font-subsetting",
-  "permalink": "/docs/guides/font-subsetting",
+  "permalink": "/display-advertising-docs/docs/guides/font-subsetting",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/font-subsetting.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Temple utils",
-    "permalink": "/docs/guides/using-utils"
+    "permalink": "/display-advertising-docs/docs/guides/using-utils"
   },
   "next": {
     "title": "Inline SVG",
-    "permalink": "/docs/guides/inline-svg"
+    "permalink": "/display-advertising-docs/docs/guides/inline-svg"
   }
 }

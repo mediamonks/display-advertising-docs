@@ -7,7 +7,7 @@ export default {
   "title": "Display Advertising Documentation",
   "tagline": "All the documentation that you will need to create, develop and build display units.",
   "url": "https://mediamonks.github.io/display-advertising-docs/",
-  "baseUrl": "/",
+  "baseUrl": "/display-advertising-docs/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
