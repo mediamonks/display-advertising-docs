@@ -1,0 +1,16 @@
+{
+  "title": "Contributing",
+  "description": "Contributing to the framework",
+  "slug": "/category/contributing",
+  "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/category/contributing",
+  "navigation": {
+    "previous": {
+      "title": "Dynamic Creative Optimization",
+      "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/guides/dco"
+    },
+    "next": {
+      "title": "How to update DisplayAd Docs",
+      "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/contributing/contributing-display-docs"
+    }
+  }
+}

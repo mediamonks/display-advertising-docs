@@ -6,7 +6,7 @@
   "source": "@site/docs/guides/dco.md",
   "sourceDirName": "guides",
   "slug": "/guides/dco",
-  "permalink": "/docs/guides/dco",
+  "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/guides/dco",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/dco.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "GSDevTools",
-    "permalink": "/docs/guides/GSDevTools"
+    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/guides/GSDevTools"
   },
   "next": {
     "title": "Contributing",
-    "permalink": "/docs/category/contributing"
+    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/category/contributing"
   }
 }
