@@ -37,9 +37,6 @@
     "0ab3c5fd": [
       803
     ],
-    "0f7b1f8d": [
-      485
-    ],
     "14eb3368": [
       532,
       817
@@ -55,6 +52,9 @@
     "1f146b5f": [
       130
     ],
+    "3152febb": [
+      225
+    ],
     "3aafc926": [
       433
     ],
@@ -64,8 +64,8 @@
     "3e673f5b": [
       207
     ],
-    "442d7eb7": [
-      153
+    "46eee094": [
+      265
     ],
     "48eb4607": [
       591
@@ -88,11 +88,11 @@
     "8aa90f3e": [
       361
     ],
+    "8ae7f3b1": [
+      212
+    ],
     "935f2afb": [
       53
-    ],
-    "9664dd78": [
-      440
     ],
     "bbf0680e": [
       823
@@ -137,69 +137,54 @@
     "2": {
       "js": [
         {
-          "file": "assets/js/d458b4eb.8dfa6782.js",
-          "hash": "8b37bda351908112",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/d458b4eb.8dfa6782.js"
+          "file": "assets/js/d458b4eb.2296ce26.js",
+          "hash": "4d866592d4aeaef8",
+          "publicPath": "/assets/js/d458b4eb.2296ce26.js"
         }
       ]
     },
     "53": {
       "js": [
         {
-          "file": "assets/js/935f2afb.f47360ce.js",
-          "hash": "853fd9eedfa1a362",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/935f2afb.f47360ce.js"
+          "file": "assets/js/935f2afb.0b730e5b.js",
+          "hash": "014ae22e9e9a6d06",
+          "publicPath": "/assets/js/935f2afb.0b730e5b.js"
         }
       ]
     },
     "130": {
       "js": [
         {
-          "file": "assets/js/1f146b5f.457f3b5e.js",
-          "hash": "184ab98b474eae33",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/1f146b5f.457f3b5e.js"
+          "file": "assets/js/1f146b5f.86519a04.js",
+          "hash": "54dc3491d002233a",
+          "publicPath": "/assets/js/1f146b5f.86519a04.js"
         }
       ]
     },
     "152": {
       "js": [
         {
-          "file": "assets/js/54f44165.ceeb3b07.js",
-          "hash": "b3e687eb326c4331",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/54f44165.ceeb3b07.js"
-        }
-      ]
-    },
-    "153": {
-      "js": [
-        {
-          "file": "assets/js/442d7eb7.4572ac96.js",
-          "hash": "58a56f18bb470dc1",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/442d7eb7.4572ac96.js"
+          "file": "assets/js/54f44165.53e98176.js",
+          "hash": "1ac82a4602f19795",
+          "publicPath": "/assets/js/54f44165.53e98176.js"
         }
       ]
     },
     "154": {
       "js": [
         {
-          "file": "assets/js/cda2036c.8123f374.js",
-          "hash": "29e7fdb045548ad2",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/cda2036c.8123f374.js"
+          "file": "assets/js/cda2036c.1f050540.js",
+          "hash": "c773012f053110c7",
+          "publicPath": "/assets/js/cda2036c.1f050540.js"
         }
       ]
     },
     "179": {
       "js": [
         {
-<<<<<<< HEAD
-          "file": "assets/js/main.cf5a3b9a.js",
-          "hash": "fd060f42890ca6be",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/main.cf5a3b9a.js"
-=======
-          "file": "assets/js/main.3ec77b99.js",
-          "hash": "b0938ef07e0d19d1",
-          "publicPath": "/assets/js/main.3ec77b99.js"
->>>>>>> 982f282efcd47a30face46abad7a4b97df5c30f2
+          "file": "assets/js/main.b5979405.js",
+          "hash": "80707c206fda6dba",
+          "publicPath": "/assets/js/main.b5979405.js"
         }
       ]
     },
@@ -208,7 +193,7 @@
         {
           "file": "assets/js/54adae04.8dcef237.js",
           "hash": "5d55e3d04ab722d7",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/54adae04.8dcef237.js"
+          "publicPath": "/assets/js/54adae04.8dcef237.js"
         }
       ]
     },
@@ -217,49 +202,70 @@
         {
           "file": "assets/js/c4f5d8e4.8a05edd6.js",
           "hash": "ebb854b51bdf2b18",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/c4f5d8e4.8a05edd6.js"
+          "publicPath": "/assets/js/c4f5d8e4.8a05edd6.js"
         }
       ]
     },
     "207": {
       "js": [
         {
-          "file": "assets/js/3e673f5b.047972d1.js",
-          "hash": "c5a04198338b115f",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/3e673f5b.047972d1.js"
+          "file": "assets/js/3e673f5b.d29fa718.js",
+          "hash": "d2b59ecd2b754432",
+          "publicPath": "/assets/js/3e673f5b.d29fa718.js"
+        }
+      ]
+    },
+    "212": {
+      "js": [
+        {
+          "file": "assets/js/8ae7f3b1.ba372869.js",
+          "hash": "e98659ae4fb2f7be",
+          "publicPath": "/assets/js/8ae7f3b1.ba372869.js"
+        }
+      ]
+    },
+    "225": {
+      "js": [
+        {
+          "file": "assets/js/3152febb.f258d645.js",
+          "hash": "1acae83107d4ce41",
+          "publicPath": "/assets/js/3152febb.f258d645.js"
+        }
+      ]
+    },
+    "265": {
+      "js": [
+        {
+          "file": "assets/js/46eee094.d7a8c171.js",
+          "hash": "453e850119e7fde9",
+          "publicPath": "/assets/js/46eee094.d7a8c171.js"
         }
       ]
     },
     "303": {
       "js": [
         {
-<<<<<<< HEAD
-          "file": "assets/js/runtime~main.f2d66fe2.js",
-          "hash": "21a0a747174fab81",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/runtime~main.f2d66fe2.js"
-=======
           "file": "assets/js/runtime~main.8b5ad33c.js",
-          "hash": "f88e7a20ab03eaaa",
+          "hash": "9c582e9c9e4f27d6",
           "publicPath": "/assets/js/runtime~main.8b5ad33c.js"
->>>>>>> 982f282efcd47a30face46abad7a4b97df5c30f2
         }
       ]
     },
     "361": {
       "js": [
         {
-          "file": "assets/js/8aa90f3e.3413098c.js",
-          "hash": "14b5b12427c98946",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/8aa90f3e.3413098c.js"
+          "file": "assets/js/8aa90f3e.8ce766ba.js",
+          "hash": "4278799bd6c63273",
+          "publicPath": "/assets/js/8aa90f3e.8ce766ba.js"
         }
       ]
     },
     "369": {
       "js": [
         {
-          "file": "assets/js/f01fc776.ae1153ee.js",
-          "hash": "040021a7f1b2ab2e",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/f01fc776.ae1153ee.js"
+          "file": "assets/js/f01fc776.a44c3717.js",
+          "hash": "e40463e0bb313027",
+          "publicPath": "/assets/js/f01fc776.a44c3717.js"
         }
       ]
     },
@@ -268,16 +274,7 @@
         {
           "file": "assets/js/3aafc926.e8605270.js",
           "hash": "020e590a1ca42ef9",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/3aafc926.e8605270.js"
-        }
-      ]
-    },
-    "440": {
-      "js": [
-        {
-          "file": "assets/js/9664dd78.6618b9b5.js",
-          "hash": "f4d8103a51d494e9",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/9664dd78.6618b9b5.js"
+          "publicPath": "/assets/js/3aafc926.e8605270.js"
         }
       ]
     },
@@ -286,52 +283,43 @@
         {
           "file": "assets/js/443.1954edb4.js",
           "hash": "aedc41d52076674a",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/443.1954edb4.js"
+          "publicPath": "/assets/js/443.1954edb4.js"
         }
       ]
     },
     "460": {
       "js": [
         {
-          "file": "assets/js/c1f0299e.a861ed5e.js",
-          "hash": "63186f20473fd0db",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/c1f0299e.a861ed5e.js"
+          "file": "assets/js/c1f0299e.4746fa43.js",
+          "hash": "1371c678a535411d",
+          "publicPath": "/assets/js/c1f0299e.4746fa43.js"
         }
       ]
     },
     "461": {
       "js": [
         {
-          "file": "assets/js/81844dfd.88a36f7d.js",
-          "hash": "4c737b433dd83c59",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/81844dfd.88a36f7d.js"
-        }
-      ]
-    },
-    "485": {
-      "js": [
-        {
-          "file": "assets/js/0f7b1f8d.c3a5df43.js",
-          "hash": "3abbd8cb75c1e95b",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/0f7b1f8d.c3a5df43.js"
+          "file": "assets/js/81844dfd.dcde1826.js",
+          "hash": "7391d924e6680121",
+          "publicPath": "/assets/js/81844dfd.dcde1826.js"
         }
       ]
     },
     "490": {
       "js": [
         {
-          "file": "assets/js/074d282c.8d830e21.js",
-          "hash": "4ea4a290a2cbd72b",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/074d282c.8d830e21.js"
+          "file": "assets/js/074d282c.295cd2f4.js",
+          "hash": "e83fa2056990cf77",
+          "publicPath": "/assets/js/074d282c.295cd2f4.js"
         }
       ]
     },
     "504": {
       "js": [
         {
-          "file": "assets/js/3d0ace8e.def55d66.js",
-          "hash": "ff3179979099f017",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/3d0ace8e.def55d66.js"
+          "file": "assets/js/3d0ace8e.9250c109.js",
+          "hash": "dac0ecf264721734",
+          "publicPath": "/assets/js/3d0ace8e.9250c109.js"
         }
       ]
     },
@@ -340,7 +328,7 @@
         {
           "file": "assets/js/525.25c7f98a.js",
           "hash": "71c1ac880926bf69",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/525.25c7f98a.js"
+          "publicPath": "/assets/js/525.25c7f98a.js"
         }
       ]
     },
@@ -349,43 +337,43 @@
         {
           "file": "assets/css/styles.8b0ae17a.css",
           "hash": "9ac277d11cb240ff",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/css/styles.8b0ae17a.css"
+          "publicPath": "/assets/css/styles.8b0ae17a.css"
         }
       ]
     },
     "537": {
       "js": [
         {
-          "file": "assets/js/04ec886a.b33c5490.js",
-          "hash": "870106362ed73c9b",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/04ec886a.b33c5490.js"
+          "file": "assets/js/04ec886a.15111106.js",
+          "hash": "2c5538c02ffd7bee",
+          "publicPath": "/assets/js/04ec886a.15111106.js"
         }
       ]
     },
     "540": {
       "js": [
         {
-          "file": "assets/js/f833b3c0.964aa6b5.js",
-          "hash": "3c47b62e4ef257d0",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/f833b3c0.964aa6b5.js"
+          "file": "assets/js/f833b3c0.ab36ff10.js",
+          "hash": "85000a0cde12db0e",
+          "publicPath": "/assets/js/f833b3c0.ab36ff10.js"
         }
       ]
     },
     "588": {
       "js": [
         {
-          "file": "assets/js/fa2c2c6f.165acbc4.js",
-          "hash": "9f84f0fcddbbf5cb",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/fa2c2c6f.165acbc4.js"
+          "file": "assets/js/fa2c2c6f.7ba8ec82.js",
+          "hash": "0a51c1ab7b9660d5",
+          "publicPath": "/assets/js/fa2c2c6f.7ba8ec82.js"
         }
       ]
     },
     "591": {
       "js": [
         {
-          "file": "assets/js/48eb4607.2f6521b0.js",
-          "hash": "526c5fd14372b8bf",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/48eb4607.2f6521b0.js"
+          "file": "assets/js/48eb4607.a524aba1.js",
+          "hash": "3bcbbb97ab61e8fc",
+          "publicPath": "/assets/js/48eb4607.a524aba1.js"
         }
       ]
     },
@@ -394,30 +382,30 @@
         {
           "file": "assets/js/608.6a78db60.js",
           "hash": "b33755fb360be6ff",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/608.6a78db60.js"
+          "publicPath": "/assets/js/608.6a78db60.js"
         },
         {
           "file": "assets/js/1be78505.4a1d8b69.js",
           "hash": "ea859a85acc025b0",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/1be78505.4a1d8b69.js"
+          "publicPath": "/assets/js/1be78505.4a1d8b69.js"
         }
       ]
     },
     "765": {
       "js": [
         {
-          "file": "assets/js/6e498a6c.c81de583.js",
-          "hash": "b179990e5a731383",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/6e498a6c.c81de583.js"
+          "file": "assets/js/6e498a6c.67a2c0fb.js",
+          "hash": "acb20e45b04f4605",
+          "publicPath": "/assets/js/6e498a6c.67a2c0fb.js"
         }
       ]
     },
     "803": {
       "js": [
         {
-          "file": "assets/js/0ab3c5fd.02f73167.js",
-          "hash": "305d7ec59817c779",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/0ab3c5fd.02f73167.js"
+          "file": "assets/js/0ab3c5fd.8198a1ab.js",
+          "hash": "a72386a9457be56c",
+          "publicPath": "/assets/js/0ab3c5fd.8198a1ab.js"
         }
       ]
     },
@@ -426,25 +414,25 @@
         {
           "file": "assets/js/14eb3368.ee8d83ee.js",
           "hash": "4787ddc6c7f34e94",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/14eb3368.ee8d83ee.js"
+          "publicPath": "/assets/js/14eb3368.ee8d83ee.js"
         }
       ]
     },
     "823": {
       "js": [
         {
-          "file": "assets/js/bbf0680e.4d1e741f.js",
-          "hash": "325292f24646095f",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/bbf0680e.4d1e741f.js"
+          "file": "assets/js/bbf0680e.9562210d.js",
+          "hash": "131313a644e4335d",
+          "publicPath": "/assets/js/bbf0680e.9562210d.js"
         }
       ]
     },
     "867": {
       "js": [
         {
-          "file": "assets/js/e6471b42.e781dfc0.js",
-          "hash": "4c710a8535692900",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/e6471b42.e781dfc0.js"
+          "file": "assets/js/e6471b42.17dd0763.js",
+          "hash": "fb62fe4064f61041",
+          "publicPath": "/assets/js/e6471b42.17dd0763.js"
         }
       ]
     },
@@ -453,7 +441,7 @@
         {
           "file": "assets/js/6cc8f050.0ae35d74.js",
           "hash": "a885b96194ab48ae",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/6cc8f050.0ae35d74.js"
+          "publicPath": "/assets/js/6cc8f050.0ae35d74.js"
         }
       ]
     },
@@ -462,7 +450,7 @@
         {
           "file": "assets/js/17896441.38ea2bee.js",
           "hash": "d8ae01058256f191",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/17896441.38ea2bee.js"
+          "publicPath": "/assets/js/17896441.38ea2bee.js"
         }
       ]
     },
@@ -471,7 +459,7 @@
         {
           "file": "assets/js/1a4e3797.5fa87338.js",
           "hash": "19f05a7660bbe146",
-          "publicPath": "https://mediamonks.github.io/display-advertising-docs/assets/js/1a4e3797.5fa87338.js"
+          "publicPath": "/assets/js/1a4e3797.5fa87338.js"
         }
       ]
     }

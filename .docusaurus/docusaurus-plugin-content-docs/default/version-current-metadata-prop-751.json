@@ -17,46 +17,46 @@
           {
             "type": "link",
             "label": "Installation",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/getting-started/installation",
+            "href": "/docs/getting-started/installation",
             "docId": "getting-started/installation"
           },
           {
             "type": "link",
             "label": "Creating a new project",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/getting-started/creating-a-new-project",
+            "href": "/docs/getting-started/creating-a-new-project",
             "docId": "getting-started/creating-a-new-project"
           },
           {
             "type": "link",
             "label": "Start the server",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/getting-started/start-the-server",
+            "href": "/docs/getting-started/start-the-server",
             "docId": "getting-started/start-the-server"
           },
           {
             "type": "link",
             "label": "Generate a build",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/getting-started/generate-a-build",
+            "href": "/docs/getting-started/generate-a-build",
             "docId": "getting-started/generate-a-build"
           },
           {
             "type": "link",
             "label": "Upload a preview",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/getting-started/upload-a-preview",
+            "href": "/docs/getting-started/upload-a-preview",
             "docId": "getting-started/upload-a-preview"
           }
         ],
-        "href": "https://mediamonks.github.io/display-advertising-docs/docs/category/getting-started"
+        "href": "/docs/category/getting-started"
       },
       {
         "type": "link",
         "label": "Configuration files",
-        "href": "https://mediamonks.github.io/display-advertising-docs/docs/richmediarc",
+        "href": "/docs/richmediarc",
         "docId": "richmediarc"
       },
       {
         "type": "link",
         "label": "Banner Validation",
-        "href": "https://mediamonks.github.io/display-advertising-docs/docs/banner-validation",
+        "href": "/docs/banner-validation",
         "docId": "banner-validation"
       },
       {
@@ -68,65 +68,65 @@
           {
             "type": "link",
             "label": "Good practices with Handlebars",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/guides/using-handlebars",
+            "href": "/docs/guides/using-handlebars",
             "docId": "guides/using-handlebars"
           },
           {
             "type": "link",
             "label": "Temple utils",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/guides/using-utils",
+            "href": "/docs/guides/using-utils",
             "docId": "guides/using-utils"
           },
           {
             "type": "link",
             "label": "Font Subsetting",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/guides/font-subsetting",
+            "href": "/docs/guides/font-subsetting",
             "docId": "guides/font-subsetting"
           },
           {
             "type": "link",
             "label": "Inline SVG",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/guides/inline-svg",
+            "href": "/docs/guides/inline-svg",
             "docId": "guides/inline-svg"
           },
           {
             "type": "link",
             "label": "Spreadsheets in the feed",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/guides/google-spreadsheets-feed",
+            "href": "/docs/guides/google-spreadsheets-feed",
             "docId": "guides/google-spreadsheets-feed"
           },
           {
             "type": "link",
             "label": "Data binding",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/guides/dataBind",
+            "href": "/docs/guides/dataBind",
             "docId": "guides/dataBind"
           },
           {
             "type": "link",
             "label": "Create banners with commands",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/guides/commands",
+            "href": "/docs/guides/commands",
             "docId": "guides/commands"
           },
           {
             "type": "link",
             "label": "Extends Animation",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/guides/extends-animation",
+            "href": "/docs/guides/extends-animation",
             "docId": "guides/extends-animation"
           },
           {
             "type": "link",
             "label": "GSDevTools",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/guides/GSDevTools",
+            "href": "/docs/guides/GSDevTools",
             "docId": "guides/GSDevTools"
           },
           {
             "type": "link",
             "label": "Dynamic Creative Optimization",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/guides/dco",
+            "href": "/docs/guides/dco",
             "docId": "guides/dco"
           }
         ],
-        "href": "https://mediamonks.github.io/display-advertising-docs/docs/category/guides"
+        "href": "/docs/category/guides"
       },
       {
         "type": "category",
@@ -137,17 +137,17 @@
           {
             "type": "link",
             "label": "How to update DisplayAd Docs",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/contributing/contributing-display-docs",
+            "href": "/docs/contributing/contributing-display-docs",
             "docId": "contributing/contributing-display-docs"
           },
           {
             "type": "link",
             "label": "How to create an issue (ticket)",
-            "href": "https://mediamonks.github.io/display-advertising-docs/docs/contributing/create-issue",
+            "href": "/docs/contributing/create-issue",
             "docId": "contributing/create-issue"
           }
         ],
-        "href": "https://mediamonks.github.io/display-advertising-docs/docs/category/contributing"
+        "href": "/docs/category/contributing"
       }
     ]
   },

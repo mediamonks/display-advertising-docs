@@ -3,151 +3,151 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: 'https://mediamonks.github.io/display-advertising-docs/search',
-    component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/search', '505'),
+    path: '/search',
+    component: ComponentCreator('/search', '677'),
     exact: true
   },
   {
-    path: 'https://mediamonks.github.io/display-advertising-docs/docs',
-    component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs', '471'),
+    path: '/docs',
+    component: ComponentCreator('/docs', '39c'),
     routes: [
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/banner-validation',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/banner-validation', '0b8'),
+        path: '/docs/banner-validation',
+        component: ComponentCreator('/docs/banner-validation', '9f0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/category/contributing',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/category/contributing', '4b6'),
+        path: '/docs/category/contributing',
+        component: ComponentCreator('/docs/category/contributing', '9f4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/category/getting-started',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/category/getting-started', 'bbd'),
+        path: '/docs/category/getting-started',
+        component: ComponentCreator('/docs/category/getting-started', '01f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/category/guides',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/category/guides', '3b3'),
+        path: '/docs/category/guides',
+        component: ComponentCreator('/docs/category/guides', '1cd'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/contributing/contributing-display-docs',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/contributing/contributing-display-docs', '86c'),
+        path: '/docs/contributing/contributing-display-docs',
+        component: ComponentCreator('/docs/contributing/contributing-display-docs', '60f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/contributing/create-issue',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/contributing/create-issue', 'cab'),
+        path: '/docs/contributing/create-issue',
+        component: ComponentCreator('/docs/contributing/create-issue', 'cf6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/getting-started/creating-a-new-project',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/getting-started/creating-a-new-project', 'a58'),
+        path: '/docs/getting-started/creating-a-new-project',
+        component: ComponentCreator('/docs/getting-started/creating-a-new-project', '45b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/getting-started/generate-a-build',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/getting-started/generate-a-build', '9b8'),
+        path: '/docs/getting-started/generate-a-build',
+        component: ComponentCreator('/docs/getting-started/generate-a-build', 'c31'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/getting-started/installation',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/getting-started/installation', '16c'),
+        path: '/docs/getting-started/installation',
+        component: ComponentCreator('/docs/getting-started/installation', '490'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/getting-started/start-the-server',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/getting-started/start-the-server', 'bac'),
+        path: '/docs/getting-started/start-the-server',
+        component: ComponentCreator('/docs/getting-started/start-the-server', 'cad'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/getting-started/upload-a-preview',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/getting-started/upload-a-preview', 'b83'),
+        path: '/docs/getting-started/upload-a-preview',
+        component: ComponentCreator('/docs/getting-started/upload-a-preview', '635'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/guides/commands',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/guides/commands', 'f9c'),
+        path: '/docs/guides/commands',
+        component: ComponentCreator('/docs/guides/commands', 'ebf'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/guides/dataBind',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/guides/dataBind', '037'),
+        path: '/docs/guides/dataBind',
+        component: ComponentCreator('/docs/guides/dataBind', '91c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/guides/dco',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/guides/dco', '427'),
+        path: '/docs/guides/dco',
+        component: ComponentCreator('/docs/guides/dco', '97e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/guides/extends-animation',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/guides/extends-animation', '2ed'),
+        path: '/docs/guides/extends-animation',
+        component: ComponentCreator('/docs/guides/extends-animation', '09a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/guides/font-subsetting',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/guides/font-subsetting', '0ec'),
+        path: '/docs/guides/font-subsetting',
+        component: ComponentCreator('/docs/guides/font-subsetting', 'f9f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/guides/google-spreadsheets-feed',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/guides/google-spreadsheets-feed', '318'),
+        path: '/docs/guides/google-spreadsheets-feed',
+        component: ComponentCreator('/docs/guides/google-spreadsheets-feed', 'fba'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/guides/GSDevTools',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/guides/GSDevTools', 'f22'),
+        path: '/docs/guides/GSDevTools',
+        component: ComponentCreator('/docs/guides/GSDevTools', '1b1'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/guides/inline-svg',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/guides/inline-svg', 'cbd'),
+        path: '/docs/guides/inline-svg',
+        component: ComponentCreator('/docs/guides/inline-svg', 'c07'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/guides/using-handlebars',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/guides/using-handlebars', '7aa'),
+        path: '/docs/guides/using-handlebars',
+        component: ComponentCreator('/docs/guides/using-handlebars', '3b6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/guides/using-utils',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/guides/using-utils', '42a'),
+        path: '/docs/guides/using-utils',
+        component: ComponentCreator('/docs/guides/using-utils', '714'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: 'https://mediamonks.github.io/display-advertising-docs/docs/richmediarc',
-        component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/docs/richmediarc', 'beb'),
+        path: '/docs/richmediarc',
+        component: ComponentCreator('/docs/richmediarc', 'ead'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
   },
   {
-    path: 'https://mediamonks.github.io/display-advertising-docs/',
-    component: ComponentCreator('https://mediamonks.github.io/display-advertising-docs/', '114'),
+    path: '/',
+    component: ComponentCreator('/', '9f4'),
     exact: true
   },
   {

@@ -6,7 +6,7 @@
   "source": "@site/docs/guides/inline-svg.md",
   "sourceDirName": "guides",
   "slug": "/guides/inline-svg",
-  "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/guides/inline-svg",
+  "permalink": "/docs/guides/inline-svg",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/inline-svg.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Font Subsetting",
-    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/guides/font-subsetting"
+    "permalink": "/docs/guides/font-subsetting"
   },
   "next": {
     "title": "Spreadsheets in the feed",
-    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/guides/google-spreadsheets-feed"
+    "permalink": "/docs/guides/google-spreadsheets-feed"
   }
 }

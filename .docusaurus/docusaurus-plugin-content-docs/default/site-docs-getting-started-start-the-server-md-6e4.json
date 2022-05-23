@@ -6,7 +6,7 @@
   "source": "@site/docs/getting-started/start-the-server.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/start-the-server",
-  "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/getting-started/start-the-server",
+  "permalink": "/docs/getting-started/start-the-server",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/start-the-server.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Creating a new project",
-    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/getting-started/creating-a-new-project"
+    "permalink": "/docs/getting-started/creating-a-new-project"
   },
   "next": {
     "title": "Generate a build",
-    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/getting-started/generate-a-build"
+    "permalink": "/docs/getting-started/generate-a-build"
   }
 }

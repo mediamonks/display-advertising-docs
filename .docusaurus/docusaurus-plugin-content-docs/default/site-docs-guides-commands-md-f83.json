@@ -6,7 +6,7 @@
   "source": "@site/docs/guides/commands.md",
   "sourceDirName": "guides",
   "slug": "/guides/commands",
-  "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/guides/commands",
+  "permalink": "/docs/guides/commands",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/commands.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Data binding",
-    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/guides/dataBind"
+    "permalink": "/docs/guides/dataBind"
   },
   "next": {
     "title": "Extends Animation",
-    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/guides/extends-animation"
+    "permalink": "/docs/guides/extends-animation"
   }
 }

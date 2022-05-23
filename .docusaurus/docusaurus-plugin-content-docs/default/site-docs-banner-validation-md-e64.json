@@ -6,7 +6,7 @@
   "source": "@site/docs/banner-validation.md",
   "sourceDirName": ".",
   "slug": "/banner-validation",
-  "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/banner-validation",
+  "permalink": "/docs/banner-validation",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/banner-validation.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Configuration files",
-    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/richmediarc"
+    "permalink": "/docs/richmediarc"
   },
   "next": {
     "title": "Guides",
-    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/category/guides"
+    "permalink": "/docs/category/guides"
   }
 }

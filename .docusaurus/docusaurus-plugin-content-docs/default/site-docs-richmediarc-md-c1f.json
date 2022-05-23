@@ -6,7 +6,7 @@
   "source": "@site/docs/richmediarc.md",
   "sourceDirName": ".",
   "slug": "/richmediarc",
-  "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/richmediarc",
+  "permalink": "/docs/richmediarc",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/richmediarc.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Upload a preview",
-    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/getting-started/upload-a-preview"
+    "permalink": "/docs/getting-started/upload-a-preview"
   },
   "next": {
     "title": "Banner Validation",
-    "permalink": "https://mediamonks.github.io/display-advertising-docs/docs/banner-validation"
+    "permalink": "/docs/banner-validation"
   }
 }
