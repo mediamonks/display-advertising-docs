@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/using-utils",
+  "id": "guides/using-utils",
+  "title": "Temple utils",
+  "description": "Multiple utils are included in the display-temple repository that can save us a lot of work. Below are some examples:",
+  "source": "@site/docs/guides/using-utils.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/using-utils",
+  "permalink": "/docs/guides/using-utils",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/using-utils.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Good practices with Handlebars",
+    "permalink": "/docs/guides/using-handlebars"
+  },
+  "next": {
+    "title": "Font Subsetting",
+    "permalink": "/docs/guides/font-subsetting"
+  }
+}

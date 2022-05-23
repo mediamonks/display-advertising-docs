@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-started/upload-a-preview",
+  "id": "getting-started/upload-a-preview",
+  "title": "Upload a preview",
+  "description": "Uploading your banners to a preview can be done in a number of ways.",
+  "source": "@site/docs/getting-started/upload-a-preview.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/upload-a-preview",
+  "permalink": "/docs/getting-started/upload-a-preview",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/upload-a-preview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Generate a build",
+    "permalink": "/docs/getting-started/generate-a-build"
+  },
+  "next": {
+    "title": "Configuration files",
+    "permalink": "/docs/richmediarc"
+  }
+}

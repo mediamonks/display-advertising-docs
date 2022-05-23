@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/banner-validation",
+  "id": "guides/banner-validation",
+  "title": "Banner Validation",
+  "description": "[to complete - some official docs]",
+  "source": "@site/docs/guides/banner-validation.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/banner-validation",
+  "permalink": "/docs/guides/banner-validation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/banner-validation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dynamic Creative Optimization",
+    "permalink": "/docs/guides/dco"
+  },
+  "next": {
+    "title": "Contributing",
+    "permalink": "/docs/category/contributing"
+  }
+}

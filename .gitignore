@@ -104,7 +104,5 @@ dist
 
 # TernJS port file
 .tern-port
-.docusaurus
 .idea
-build
 .DS_Store

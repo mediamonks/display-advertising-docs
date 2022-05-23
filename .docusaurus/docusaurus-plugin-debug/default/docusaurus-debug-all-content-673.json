@@ -1,0 +1,672 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/alandawidowicz/Documents/Github/display-advertising-docs/sidebars.js",
+          "contentPath": "/Users/alandawidowicz/Documents/Github/display-advertising-docs/docs",
+          "contentPathLocalized": "/Users/alandawidowicz/Documents/Github/display-advertising-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "banner-validation",
+              "id": "banner-validation",
+              "title": "Banner Validation",
+              "description": "[to complete - some official docs]",
+              "source": "@site/docs/banner-validation.md",
+              "sourceDirName": ".",
+              "slug": "/banner-validation",
+              "permalink": "/docs/banner-validation",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/banner-validation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Configuration files",
+                "permalink": "/docs/richmediarc"
+              },
+              "next": {
+                "title": "Guides",
+                "permalink": "/docs/category/guides"
+              }
+            },
+            {
+              "unversionedId": "contributing/contributing-display-docs",
+              "id": "contributing/contributing-display-docs",
+              "title": "How to update DisplayAd Docs",
+              "description": "",
+              "source": "@site/docs/contributing/contributing-display-docs.md",
+              "sourceDirName": "contributing",
+              "slug": "/contributing/contributing-display-docs",
+              "permalink": "/docs/contributing/contributing-display-docs",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/contributing-display-docs.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Contributing",
+                "permalink": "/docs/category/contributing"
+              },
+              "next": {
+                "title": "How to create an issue (ticket)",
+                "permalink": "/docs/contributing/create-issue"
+              }
+            },
+            {
+              "unversionedId": "contributing/create-issue",
+              "id": "contributing/create-issue",
+              "title": "How to create an issue (ticket)",
+              "description": "",
+              "source": "@site/docs/contributing/create-issue.md",
+              "sourceDirName": "contributing",
+              "slug": "/contributing/create-issue",
+              "permalink": "/docs/contributing/create-issue",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/create-issue.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to update DisplayAd Docs",
+                "permalink": "/docs/contributing/contributing-display-docs"
+              }
+            },
+            {
+              "unversionedId": "getting-started/creating-a-new-project",
+              "id": "getting-started/creating-a-new-project",
+              "title": "Creating a new project",
+              "description": "Its advisable when creating a new richmedia unit to first scaffold the initial project This will save you a lot of",
+              "source": "@site/docs/getting-started/creating-a-new-project.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/creating-a-new-project",
+              "permalink": "/docs/getting-started/creating-a-new-project",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/creating-a-new-project.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Installation",
+                "permalink": "/docs/getting-started/installation"
+              },
+              "next": {
+                "title": "Start the server",
+                "permalink": "/docs/getting-started/start-the-server"
+              }
+            },
+            {
+              "unversionedId": "getting-started/generate-a-build",
+              "id": "getting-started/generate-a-build",
+              "title": "Generate a build",
+              "description": "To run the build script, you can run “npm run build” in your terminal or console.",
+              "source": "@site/docs/getting-started/generate-a-build.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/generate-a-build",
+              "permalink": "/docs/getting-started/generate-a-build",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/generate-a-build.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Start the server",
+                "permalink": "/docs/getting-started/start-the-server"
+              },
+              "next": {
+                "title": "Upload a preview",
+                "permalink": "/docs/getting-started/upload-a-preview"
+              }
+            },
+            {
+              "unversionedId": "getting-started/installation",
+              "id": "getting-started/installation",
+              "title": "Installation",
+              "description": "Prerequisites",
+              "source": "@site/docs/getting-started/installation.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/installation",
+              "permalink": "/docs/getting-started/installation",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/installation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting started",
+                "permalink": "/docs/category/getting-started"
+              },
+              "next": {
+                "title": "Creating a new project",
+                "permalink": "/docs/getting-started/creating-a-new-project"
+              }
+            },
+            {
+              "unversionedId": "getting-started/start-the-server",
+              "id": "getting-started/start-the-server",
+              "title": "Start the server",
+              "description": "What is the display temple server?",
+              "source": "@site/docs/getting-started/start-the-server.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/start-the-server",
+              "permalink": "/docs/getting-started/start-the-server",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/start-the-server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Creating a new project",
+                "permalink": "/docs/getting-started/creating-a-new-project"
+              },
+              "next": {
+                "title": "Generate a build",
+                "permalink": "/docs/getting-started/generate-a-build"
+              }
+            },
+            {
+              "unversionedId": "getting-started/upload-a-preview",
+              "id": "getting-started/upload-a-preview",
+              "title": "Upload a preview",
+              "description": "Uploading your banners to a preview can be done in a number of ways.",
+              "source": "@site/docs/getting-started/upload-a-preview.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/upload-a-preview",
+              "permalink": "/docs/getting-started/upload-a-preview",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/upload-a-preview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Generate a build",
+                "permalink": "/docs/getting-started/generate-a-build"
+              },
+              "next": {
+                "title": "Configuration files",
+                "permalink": "/docs/richmediarc"
+              }
+            },
+            {
+              "unversionedId": "guides/commands",
+              "id": "guides/commands",
+              "title": "Create banners with commands",
+              "description": "Another way to create banners is using the command line with parameters. It is possible to create multiple banners using the --units parameter and is possible to define the --type of the units.",
+              "source": "@site/docs/guides/commands.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/commands",
+              "permalink": "/docs/guides/commands",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/commands.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data binding",
+                "permalink": "/docs/guides/dataBind"
+              },
+              "next": {
+                "title": "Extends Animation",
+                "permalink": "/docs/guides/extends-animation"
+              }
+            },
+            {
+              "unversionedId": "guides/dataBind",
+              "id": "guides/dataBind",
+              "title": "Data binding",
+              "description": "Data bind is a util in the mediamonks/temple to bind a object data to html.",
+              "source": "@site/docs/guides/dataBind.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/dataBind",
+              "permalink": "/docs/guides/dataBind",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/dataBind.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Spreadsheets in the feed",
+                "permalink": "/docs/guides/google-spreadsheets-feed"
+              },
+              "next": {
+                "title": "Create banners with commands",
+                "permalink": "/docs/guides/commands"
+              }
+            },
+            {
+              "unversionedId": "guides/dco",
+              "id": "guides/dco",
+              "title": "Dynamic Creative Optimization",
+              "description": "[to complete - some official docs]",
+              "source": "@site/docs/guides/dco.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/dco",
+              "permalink": "/docs/guides/dco",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/dco.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GSDevTools",
+                "permalink": "/docs/guides/GSDevTools"
+              },
+              "next": {
+                "title": "Contributing",
+                "permalink": "/docs/category/contributing"
+              }
+            },
+            {
+              "unversionedId": "guides/extends-animation",
+              "id": "guides/extends-animation",
+              "title": "Extends Animation",
+              "description": "Sometimes it may happen that we need to modify the animation of a certain frame, but we don't want to add conditionals or duplicate the main Animation.js only to change a few lines. For those cases it is recommended to create a child Animation.js.",
+              "source": "@site/docs/guides/extends-animation.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/extends-animation",
+              "permalink": "/docs/guides/extends-animation",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/extends-animation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create banners with commands",
+                "permalink": "/docs/guides/commands"
+              },
+              "next": {
+                "title": "GSDevTools",
+                "permalink": "/docs/guides/GSDevTools"
+              }
+            },
+            {
+              "unversionedId": "guides/font-subsetting",
+              "id": "guides/font-subsetting",
+              "title": "Font Subsetting",
+              "description": "Font subsetting allows us to drastically reduce the overall filesize of our ads by slimming down our font files to the point where they only include the actual characters we need.",
+              "source": "@site/docs/guides/font-subsetting.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/font-subsetting",
+              "permalink": "/docs/guides/font-subsetting",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/font-subsetting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Temple utils",
+                "permalink": "/docs/guides/using-utils"
+              },
+              "next": {
+                "title": "Inline SVG",
+                "permalink": "/docs/guides/inline-svg"
+              }
+            },
+            {
+              "unversionedId": "guides/google-spreadsheets-feed",
+              "id": "guides/google-spreadsheets-feed",
+              "title": "Spreadsheets in the feed",
+              "description": "So you have a richmedia unit and you need generate 19 different versions with different copy for different sizes and languages.",
+              "source": "@site/docs/guides/google-spreadsheets-feed.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/google-spreadsheets-feed",
+              "permalink": "/docs/guides/google-spreadsheets-feed",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/google-spreadsheets-feed.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Inline SVG",
+                "permalink": "/docs/guides/inline-svg"
+              },
+              "next": {
+                "title": "Data binding",
+                "permalink": "/docs/guides/dataBind"
+              }
+            },
+            {
+              "unversionedId": "guides/GSDevTools",
+              "id": "guides/GSDevTools",
+              "title": "GSDevTools",
+              "description": "Put in your preview url for debugging:",
+              "source": "@site/docs/guides/GSDevTools.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/GSDevTools",
+              "permalink": "/docs/guides/GSDevTools",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/GSDevTools.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Extends Animation",
+                "permalink": "/docs/guides/extends-animation"
+              },
+              "next": {
+                "title": "Dynamic Creative Optimization",
+                "permalink": "/docs/guides/dco"
+              }
+            },
+            {
+              "unversionedId": "guides/inline-svg",
+              "id": "guides/inline-svg",
+              "title": "Inline SVG",
+              "description": "Now when adding inline to a img tag and the image has the extension .svg the svg will be inlined",
+              "source": "@site/docs/guides/inline-svg.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/inline-svg",
+              "permalink": "/docs/guides/inline-svg",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/inline-svg.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Font Subsetting",
+                "permalink": "/docs/guides/font-subsetting"
+              },
+              "next": {
+                "title": "Spreadsheets in the feed",
+                "permalink": "/docs/guides/google-spreadsheets-feed"
+              }
+            },
+            {
+              "unversionedId": "guides/using-handlebars",
+              "id": "guides/using-handlebars",
+              "title": "Good practices with Handlebars",
+              "description": "You can check all the documentation about Handlebars on the official website. Below you can see some examples using handlebars within the framework.",
+              "source": "@site/docs/guides/using-handlebars.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/using-handlebars",
+              "permalink": "/docs/guides/using-handlebars",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/using-handlebars.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Guides",
+                "permalink": "/docs/category/guides"
+              },
+              "next": {
+                "title": "Temple utils",
+                "permalink": "/docs/guides/using-utils"
+              }
+            },
+            {
+              "unversionedId": "guides/using-utils",
+              "id": "guides/using-utils",
+              "title": "Temple utils",
+              "description": "Multiple utils are included in the display-temple repository that can save us a lot of work. Below are some examples:",
+              "source": "@site/docs/guides/using-utils.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/using-utils",
+              "permalink": "/docs/guides/using-utils",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/using-utils.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Good practices with Handlebars",
+                "permalink": "/docs/guides/using-handlebars"
+              },
+              "next": {
+                "title": "Font Subsetting",
+                "permalink": "/docs/guides/font-subsetting"
+              }
+            },
+            {
+              "unversionedId": "richmediarc",
+              "id": "richmediarc",
+              "title": "Configuration files",
+              "description": "WORK IN PROGRESS - Paulie",
+              "source": "@site/docs/richmediarc.md",
+              "sourceDirName": ".",
+              "slug": "/richmediarc",
+              "permalink": "/docs/richmediarc",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/richmediarc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Upload a preview",
+                "permalink": "/docs/getting-started/upload-a-preview"
+              },
+              "next": {
+                "title": "Banner Validation",
+                "permalink": "/docs/banner-validation"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Getting started",
+                "collapsible": true,
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "getting-started/installation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/creating-a-new-project"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/start-the-server"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/generate-a-build"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/upload-a-preview"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "With the following guide you can conquer the dimension of the units!",
+                  "slug": "/category/getting-started",
+                  "permalink": "/docs/category/getting-started"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "richmediarc"
+              },
+              {
+                "type": "doc",
+                "id": "banner-validation"
+              },
+              {
+                "type": "category",
+                "label": "Guides",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "guides/using-handlebars"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/using-utils"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/font-subsetting"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/inline-svg"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/google-spreadsheets-feed"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/dataBind"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/commands"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/extends-animation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/GSDevTools"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/dco"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Features of the framework",
+                  "slug": "/category/guides",
+                  "permalink": "/docs/category/guides"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Contributing",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "contributing/contributing-display-docs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "contributing/create-issue"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Contributing to the framework",
+                  "slug": "/category/contributing",
+                  "permalink": "/docs/category/contributing"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "@easyops-cn/docusaurus-search-local": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

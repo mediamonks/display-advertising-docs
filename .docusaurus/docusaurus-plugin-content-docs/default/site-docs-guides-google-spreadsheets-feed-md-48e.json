@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/google-spreadsheets-feed",
+  "id": "guides/google-spreadsheets-feed",
+  "title": "Spreadsheets in the feed",
+  "description": "So you have a richmedia unit and you need generate 19 different versions with different copy for different sizes and languages.",
+  "source": "@site/docs/guides/google-spreadsheets-feed.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/google-spreadsheets-feed",
+  "permalink": "/docs/guides/google-spreadsheets-feed",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/google-spreadsheets-feed.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Inline SVG",
+    "permalink": "/docs/guides/inline-svg"
+  },
+  "next": {
+    "title": "Data binding",
+    "permalink": "/docs/guides/dataBind"
+  }
+}

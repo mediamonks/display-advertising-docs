@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/extends-animation",
+  "id": "guides/extends-animation",
+  "title": "Extends Animation",
+  "description": "Sometimes it may happen that we need to modify the animation of a certain frame, but we don't want to add conditionals or duplicate the main Animation.js only to change a few lines. For those cases it is recommended to create a child Animation.js.",
+  "source": "@site/docs/guides/extends-animation.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/extends-animation",
+  "permalink": "/docs/guides/extends-animation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/extends-animation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create banners with commands",
+    "permalink": "/docs/guides/commands"
+  },
+  "next": {
+    "title": "GSDevTools",
+    "permalink": "/docs/guides/GSDevTools"
+  }
+}

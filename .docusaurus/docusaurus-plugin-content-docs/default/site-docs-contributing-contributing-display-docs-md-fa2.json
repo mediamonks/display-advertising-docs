@@ -1,0 +1,27 @@
+{
+  "unversionedId": "contributing/contributing-display-docs",
+  "id": "contributing/contributing-display-docs",
+  "title": "How to update DisplayAd Docs",
+  "description": "",
+  "source": "@site/docs/contributing/contributing-display-docs.md",
+  "sourceDirName": "contributing",
+  "slug": "/contributing/contributing-display-docs",
+  "permalink": "/docs/contributing/contributing-display-docs",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/contributing-display-docs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Contributing",
+    "permalink": "/docs/category/contributing"
+  },
+  "next": {
+    "title": "How to create an issue (ticket)",
+    "permalink": "/docs/contributing/create-issue"
+  }
+}

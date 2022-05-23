@@ -1,0 +1,27 @@
+{
+  "unversionedId": "banner-validation",
+  "id": "banner-validation",
+  "title": "Banner Validation",
+  "description": "[to complete - some official docs]",
+  "source": "@site/docs/banner-validation.md",
+  "sourceDirName": ".",
+  "slug": "/banner-validation",
+  "permalink": "/docs/banner-validation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/banner-validation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration files",
+    "permalink": "/docs/richmediarc"
+  },
+  "next": {
+    "title": "Guides",
+    "permalink": "/docs/category/guides"
+  }
+}

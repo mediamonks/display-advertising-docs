@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/GSDevTools",
+  "id": "guides/GSDevTools",
+  "title": "GSDevTools",
+  "description": "Put in your preview url for debugging:",
+  "source": "@site/docs/guides/GSDevTools.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/GSDevTools",
+  "permalink": "/docs/guides/GSDevTools",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/GSDevTools.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Extends Animation",
+    "permalink": "/docs/guides/extends-animation"
+  },
+  "next": {
+    "title": "Dynamic Creative Optimization",
+    "permalink": "/docs/guides/dco"
+  }
+}

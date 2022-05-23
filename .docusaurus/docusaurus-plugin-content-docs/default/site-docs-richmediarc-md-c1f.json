@@ -1,0 +1,27 @@
+{
+  "unversionedId": "richmediarc",
+  "id": "richmediarc",
+  "title": "Configuration files",
+  "description": "WORK IN PROGRESS - Paulie",
+  "source": "@site/docs/richmediarc.md",
+  "sourceDirName": ".",
+  "slug": "/richmediarc",
+  "permalink": "/docs/richmediarc",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/richmediarc.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Upload a preview",
+    "permalink": "/docs/getting-started/upload-a-preview"
+  },
+  "next": {
+    "title": "Banner Validation",
+    "permalink": "/docs/banner-validation"
+  }
+}

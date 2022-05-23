@@ -1,0 +1,16 @@
+{
+  "title": "Contributing",
+  "description": "Contributing to the framework",
+  "slug": "/category/contributing",
+  "permalink": "/docs/category/contributing",
+  "navigation": {
+    "previous": {
+      "title": "Dynamic Creative Optimization",
+      "permalink": "/docs/guides/dco"
+    },
+    "next": {
+      "title": "How to update DisplayAd Docs",
+      "permalink": "/docs/contributing/contributing-display-docs"
+    }
+  }
+}
