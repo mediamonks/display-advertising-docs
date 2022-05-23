@@ -11,8 +11,10 @@ export default {
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
+  "deploymentBranch": "gh-pages",
   "organizationName": "mediamonks",
   "projectName": "display-advertising-docs",
+  "trailingSlash": false,
   "i18n": {
     "defaultLocale": "en",
     "locales": [

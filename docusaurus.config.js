@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Display Advertising Documentation',
   tagline: 'All the documentation that you will need to create, develop and build display units.',
-  url: 'https://github.com/mediamonks/display-advertising-docs',
-  baseUrl: '/',
+  url: '/',
+  baseUrl: '/', // https://github.com/mediamonks/display-advertising-docs
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
