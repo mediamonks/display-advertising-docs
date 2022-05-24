@@ -2,7 +2,7 @@ import lunr from "/Users/alandawidowicz/Documents/Github/display-advertising-doc
 export const language = ["en"];
 export const removeDefaultStopWordFilter = false;
 export const Mark = null;
-export const indexHash = "ec01d067";
+export const indexHash = "90e744de";
 export const searchResultLimits = 8;
 export const searchResultContextMaxLength = 50;
 export const explicitSearchResultPath = false;

@@ -30,6 +30,7 @@ The .richmediarc config file contains all size (i.e. 300x250) and version (i.e â
 {
   "parent": "../shared/.sharedrc", // optional: relative path from this config to the parent config"
   "settings": {
+    "bundleName": "${content.type}_${settings.size.width}x${settings.size.height}",
     "entry": {
       "js": "./script/main.js", // required: points to the starting js file.
       "html": "./index.hbs" // required: points to the main html or handlebars file

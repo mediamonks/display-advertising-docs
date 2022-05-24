@@ -161,13 +161,13 @@
     "contributing/contributing-display-docs": {
       "id": "contributing/contributing-display-docs",
       "title": "How to update DisplayAd Docs",
-      "description": "",
+      "description": "WORK IN PROGRESS - Dawi",
       "sidebar": "tutorialSidebar"
     },
     "contributing/create-issue": {
       "id": "contributing/create-issue",
       "title": "How to create an issue (ticket)",
-      "description": "",
+      "description": "WORK IN PROGRESS - Dawi",
       "sidebar": "tutorialSidebar"
     },
     "getting-started/creating-a-new-project": {
