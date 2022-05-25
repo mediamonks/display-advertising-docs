@@ -2,7 +2,7 @@
   "unversionedId": "banner-validation",
   "id": "banner-validation",
   "title": "Banner Validation",
-  "description": "[to complete - some official docs]",
+  "description": "- Check your DoubleClick Campaign Manager creative",
   "source": "@site/docs/banner-validation.md",
   "sourceDirName": ".",
   "slug": "/banner-validation",
@@ -11,6 +11,9 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/banner-validation.md",
   "tags": [],
   "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3

@@ -28,6 +28,8 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/alandawidowicz/Documents/Github/display-advertising-docs/sidebars.js",
+          "showLastUpdateAuthor": true,
+          "showLastUpdateTime": true,
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": false,

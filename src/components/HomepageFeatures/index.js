@@ -4,15 +4,6 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Display Development Server',
-    Svg: require('@site/static/img/server.svg').default,
-    description: (
-      <>
-        Used as a tool to build and develop richmedia units.
-      </>
-    ),
-  },
-  {
     title: 'Display Boilerplate',
     Svg: require('@site/static/img/generatorRule.svg').default,
     description: (
@@ -27,6 +18,15 @@ const FeatureList = [
     description: (
       <>
         Used for creating display ads units for various vendors.
+      </>
+    ),
+  },
+  {
+    title: 'Display Development Server',
+    Svg: require('@site/static/img/server.svg').default,
+    description: (
+      <>
+        Used as a tool to build and develop richmedia units.
       </>
     ),
   },

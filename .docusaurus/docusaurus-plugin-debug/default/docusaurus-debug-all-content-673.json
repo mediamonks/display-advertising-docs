@@ -22,7 +22,7 @@
               "unversionedId": "banner-validation",
               "id": "banner-validation",
               "title": "Banner Validation",
-              "description": "[to complete - some official docs]",
+              "description": "- Check your DoubleClick Campaign Manager creative",
               "source": "@site/docs/banner-validation.md",
               "sourceDirName": ".",
               "slug": "/banner-validation",
@@ -31,6 +31,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/banner-validation.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 3,
               "frontMatter": {
                 "sidebar_position": 3
@@ -58,6 +61,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/contributing-display-docs.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
@@ -85,6 +91,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/create-issue.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2
@@ -108,6 +117,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/creating-a-new-project.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2
@@ -135,6 +147,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/generate-a-build.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 4,
               "frontMatter": {
                 "sidebar_position": 4
@@ -162,6 +177,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/installation.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
@@ -189,6 +207,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/start-the-server.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 3,
               "frontMatter": {
                 "sidebar_position": 3
@@ -216,6 +237,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/upload-a-preview.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 5,
               "frontMatter": {
                 "sidebar_position": 5
@@ -243,6 +267,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/commands.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 7,
               "frontMatter": {
                 "sidebar_position": 7
@@ -270,6 +297,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/dataBind.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 6,
               "frontMatter": {
                 "sidebar_position": 6
@@ -297,6 +327,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/dco.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 10,
               "frontMatter": {
                 "sidebar_position": 10
@@ -324,6 +357,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/extends-animation.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 8,
               "frontMatter": {
                 "sidebar_position": 8
@@ -351,6 +387,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/font-subsetting.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 3,
               "frontMatter": {
                 "sidebar_position": 3
@@ -378,6 +417,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/google-spreadsheets-feed.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 5,
               "frontMatter": {
                 "sidebar_position": 5
@@ -405,6 +447,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/GSDevTools.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 9,
               "frontMatter": {
                 "sidebar_position": 9
@@ -432,6 +477,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/inline-svg.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 4,
               "frontMatter": {
                 "sidebar_position": 4
@@ -459,6 +507,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/using-handlebars.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
@@ -486,6 +537,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/using-utils.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2
@@ -513,6 +567,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/richmediarc.md",
               "tags": [],
               "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2

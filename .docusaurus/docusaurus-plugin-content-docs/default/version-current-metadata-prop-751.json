@@ -155,7 +155,7 @@
     "banner-validation": {
       "id": "banner-validation",
       "title": "Banner Validation",
-      "description": "[to complete - some official docs]",
+      "description": "- Check your DoubleClick Campaign Manager creative",
       "sidebar": "tutorialSidebar"
     },
     "contributing/contributing-display-docs": {
