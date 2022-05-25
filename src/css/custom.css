@@ -29,6 +29,14 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* html[data-theme='dark'] body {
-  background-color: red !important;
-} */
+html[data-theme='dark'] .hero--primary .hero__title {
+  color: white !important;
+}
+
+html[data-theme='dark'] .hero--primary .hero__subtitle  {
+  color: white !important;
+}
+
+.hero--primary {
+  background-color: #5b0e85 !important;
+}

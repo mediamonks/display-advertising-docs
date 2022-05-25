@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/server.svg').default,
     description: (
       <>
-        The Display Development Server is used as a tool to build and develop richmedia units.
+        Used as a tool to build and develop richmedia units.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/codingHtml.svg').default,
     description: (
       <>
-        The Display Temple is used for creating display ads units for various vendors.
+        Used for creating display ads units for various vendors.
       </>
     ),
   },
