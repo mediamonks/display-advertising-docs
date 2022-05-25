@@ -179,7 +179,7 @@
     "getting-started/generate-a-build": {
       "id": "getting-started/generate-a-build",
       "title": "Generate a build",
-      "description": "To run the build script, you can run “npm run build” in your terminal or console.",
+      "description": "If you check the build is actually a script which is found in package.json, which in turn runs the command rds-build. After you execute this script, it will start searching for .richmediarc files in all the directories and subdirectories of your project.  You’ll see something like this:",
       "sidebar": "tutorialSidebar"
     },
     "getting-started/installation": {
@@ -191,13 +191,13 @@
     "getting-started/start-the-server": {
       "id": "getting-started/start-the-server",
       "title": "Start the server",
-      "description": "What is the display temple server?",
+      "description": "What is the Display Development Server?",
       "sidebar": "tutorialSidebar"
     },
     "getting-started/upload-a-preview": {
       "id": "getting-started/upload-a-preview",
       "title": "Upload a preview",
-      "description": "Uploading your banners to a preview can be done in a number of ways.",
+      "description": "How to use",
       "sidebar": "tutorialSidebar"
     },
     "guides/commands": {
@@ -209,7 +209,7 @@
     "guides/dataBind": {
       "id": "guides/dataBind",
       "title": "Data binding",
-      "description": "Data bind is a util in the mediamonks/temple to bind a object data to html.",
+      "description": "Data bind is a util in the @mediamonks/temple to bind a object data to html. In your index.html or index.hbs, you can easely bind js object to html elements with dataBind.",
       "sidebar": "tutorialSidebar"
     },
     "guides/dco": {

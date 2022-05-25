@@ -4,13 +4,15 @@ sidebar_position: 3
 
 # Start the server
 
-### What is the display temple server?
+### What is the Display Development Server?
 To explain this as fast as possible, the _**DDS**_ (display dev server) is a build and development server to 
 develop and build display units as fast as possible.
 
 It does this by setting up a [Webpack](https://webpack.js.org/) environment where ever it finds a [.richmediarc]
 file. Why? Because its faster to just use the same webpack and webpack.config for every display advertising unit, instead of 
 creating one for every single unit.
+
+### Running the DDS
 
 To start the dev server, type the following command in your `terminal`:
 
@@ -19,7 +21,8 @@ npm run dev
 ```
 
 **“Dev”** is actually a script which is found in [package.json], which in turn runs the command `rds-dev`. 
-After you execute this script, it will start searching for .richmediarc files in all the directories and subdirectories of your project.  
+After you execute this script, it will start searching for .richmediarc files in all the directories and subdirectories of your project.
+ 
 You’ll see something like this:
 
 ```

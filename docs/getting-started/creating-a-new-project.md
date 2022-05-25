@@ -10,7 +10,7 @@ the project.
 
 ### Step 1
 
-In the terminal, make your way to a new project folder of your choosing, e.g. _**documents/work/my-banner-project**_
+In the terminal, make your way to a new project folder of your choosing, e.g. _**documents/work/my-banner-project**_.
 
 ```terminal
 yo display-templates

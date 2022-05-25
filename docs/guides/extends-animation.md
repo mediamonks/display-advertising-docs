@@ -8,7 +8,7 @@ Sometimes it may happen that we need to modify the animation of a certain frame,
 
 This is the main Animation (shared) for all the units:
 
-```js title="/src/shared/script/Animation.js"
+```js title="/src/shared/script/Animation.js" {1,5}
 import FrameAnimation from "@mediamonks/temple/animation/FrameAnimation";
 import {CustomEase} from "gsap/CustomEase";
 gsap.registerPlugin(CustomEase);
@@ -38,8 +38,7 @@ export default class Animation extends FrameAnimation {
 
   frame2(tl) {
     tl.addLabel('frame2','frame1+=2.5')
-    
-    tl.from('.copy2', {y:100, opacity: 0, ease: CustomEase.create("custom", "M0,0 C0.064,0.47 0.02,0.702 0.22,0.878 0.378,0.978 0.78,1 1,1 ")},'frame2+=0.5')
+    tl.from('.copy2', {y:100, opacity: 0, ease: "power1.inOut"},'frame2+=0.5')
   }
 }
 ```
@@ -51,10 +50,11 @@ import SharedAnim from "../../shared/script/Animation";
 
 export default class Animation extends SharedAnim {
     frame1(tl) {
-        // new stuff
+        // new stuff to replace the SharedAnim inside frame1
     }
 
     frame3(tl) {
+        // Also add an extra frame just for this size!
         tl.addLabel('frame3')
         tl.from('.captain1', {duration: 0.5, x: -100, opacity: 0, ease: "power1.inOut"},'frame1-=0.5')
     }

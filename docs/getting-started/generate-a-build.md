@@ -4,14 +4,13 @@ sidebar_position: 4
 
 # Generate a build
 
-To run the build script, you can run “npm run build” in your terminal or console.
-“build” is actually a script which is found in package.json, which in turn runs the command rds-build. After you execute this script, it will start searching for .richmediarc files in all the directories and subdirectories of your project.  You’ll see something like this:
+If you check the `build` is actually a script which is found in package.json, which in turn runs the command `rds-build`. After you execute this script, it will start searching for .richmediarc files in all the directories and subdirectories of your project.  You’ll see something like this:
 
 ```terminal
 npm run build
 ```
 
-“build” is actually a script which is found in package.json, which in turn runs the command rds-build. After you execute this script, it will start searching for .richmediarc files in all the directories and subdirectories of your project. You’ll see something like this:
+“build” is actually a script which is found in package.json, which in turn runs the command `rds-build`. After you execute this script, it will start searching for .richmediarc files in all the directories and subdirectories of your project. You’ll see something like this:
 
 ```
 ? Please choose the current build to start. (Press <space> to select, <a> to toggle all, <i> to invert selection)

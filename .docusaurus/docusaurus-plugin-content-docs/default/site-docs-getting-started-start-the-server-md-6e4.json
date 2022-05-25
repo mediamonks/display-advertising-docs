@@ -2,7 +2,7 @@
   "unversionedId": "getting-started/start-the-server",
   "id": "getting-started/start-the-server",
   "title": "Start the server",
-  "description": "What is the display temple server?",
+  "description": "What is the Display Development Server?",
   "source": "@site/docs/getting-started/start-the-server.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/start-the-server",

@@ -2,7 +2,7 @@
   "unversionedId": "guides/dataBind",
   "id": "guides/dataBind",
   "title": "Data binding",
-  "description": "Data bind is a util in the mediamonks/temple to bind a object data to html.",
+  "description": "Data bind is a util in the @mediamonks/temple to bind a object data to html. In your index.html or index.hbs, you can easely bind js object to html elements with dataBind.",
   "source": "@site/docs/guides/dataBind.md",
   "sourceDirName": "guides",
   "slug": "/guides/dataBind",

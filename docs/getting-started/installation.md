@@ -8,9 +8,9 @@ sidebar_position: 1
 
 - [NodeJS](https://pages.github.com/)
 
-- Terminal / Windows Powershell, etc
+- Terminal / Windows Powershell
 
-- Code editor ([VSCode](https://code.visualstudio.com/), [Webstorm](https://www.jetbrains.com/webstorm/), etc)
+- Code editor ([VSCode](https://code.visualstudio.com/), [Webstorm](https://www.jetbrains.com/webstorm/))
 
 
 :::caution

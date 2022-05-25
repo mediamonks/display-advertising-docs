@@ -4,20 +4,11 @@ sidebar_position: 6
 
 # Data binding
 
-Data bind is a util in the mediamonks/temple to bind a object data to html.
-
-In your index.html or index.hbs, you can easely bind js object to html elements with dataBind. 
+Data bind is a util in the @mediamonks/temple to bind a object data to html. In your index.html or index.hbs, you can easely bind js object to html elements with dataBind. 
 
 For example doubleClick has a dynamic feed:
 
-
-:::caution
-
-Need to check the actual code.
-
-:::
-
-```js
+```js title="/src/shared/script/getDynamicData.js"
   devDynamicContent.generator_richmedia_temple_framework_test_feed_main = [{}];
   devDynamicContent.generator_richmedia_temple_framework_test_feed_main[0]._id = 0;
   devDynamicContent.generator_richmedia_temple_framework_test_feed_main[0].id = 0;
@@ -35,27 +26,19 @@ Need to check the actual code.
   devDynamicContent.generator_richmedia_temple_framework_test_feed_main[0].exit_url.Url = "http://www.google.com";
 ```
 
-And you want to use these values in your html/hbs file.
+And you want to use these values in your html/hbs file:
 
-you would only need to get the current object of the feed.
-
-```js
-const feed = window.dynamicContent["generator_richmedia_temple_framework_test_feed_main"][0];
-```
-
-and apply it to the html/hbs like this.
-
-```js
-// always import it
+```js title="/src/shared/script/Banner.js"
 import dataBind from "@mediamonks/temple/util/dataBind";
 
-// somewhere in your code
+const feed = window.dynamicContent["generator_richmedia_temple_framework_test_feed_main"][0];
+
 dataBind(feed, document.querySelector('body'));
 ```
 
 and the html bindings would look like this
 
-```html
+```html  title="/src/shared/index.hbs"
 <!DOCTYPE html>
 <html lang="en">
 <head>

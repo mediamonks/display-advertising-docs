@@ -4,6 +4,8 @@ sidebar_position: 5
 
 # Upload a preview
 
+## How to use
+
 Uploading your banners to a preview can be done in a number of ways.
 
 The easiest method is to use our tool called “display-upload”, which you can start by running the following command:
@@ -32,11 +34,11 @@ Press **Y**. You’ll see the following options
   - Google DoubleClick Studio (Disabled)
 ```
 
-Below are guides for uploading to an Amazon S3 bucket.
+:::info
+FYI Media.Monks Preview and Amazon S3 do practically the same thing.
+:::
 
-FYI MediaMonks Preview and Amazon S3 do practically the same thing.
-
-#### MediaMonks Preview
+## MediaMonks Preview
 
 This will upload the entire build folder to a S3 bucket. When you select this, you’ll have to enter a few things:
 
@@ -44,11 +46,7 @@ This will upload the entire build folder to a S3 bucket. When you select this, y
 ? What directory you want to upload?
 ```
 
-Just enter
-`
-build
-`
-here by default.
+Just enter `build` here by default.
 
 ```
 ? Please fill in the name for the S3 Bucket:
