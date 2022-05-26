@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/display-advertising-docs/__docusaurus/debug',
-    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug', '7bf'),
-    exact: true
-  },
-  {
-    path: '/display-advertising-docs/__docusaurus/debug/config',
-    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/config', '923'),
-    exact: true
-  },
-  {
-    path: '/display-advertising-docs/__docusaurus/debug/content',
-    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/content', 'cc5'),
-    exact: true
-  },
-  {
-    path: '/display-advertising-docs/__docusaurus/debug/globalData',
-    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/globalData', 'f4a'),
-    exact: true
-  },
-  {
-    path: '/display-advertising-docs/__docusaurus/debug/metadata',
-    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/metadata', '9c5'),
-    exact: true
-  },
-  {
-    path: '/display-advertising-docs/__docusaurus/debug/registry',
-    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/registry', 'a86'),
-    exact: true
-  },
-  {
-    path: '/display-advertising-docs/__docusaurus/debug/routes',
-    component: ComponentCreator('/display-advertising-docs/__docusaurus/debug/routes', '160'),
-    exact: true
-  },
-  {
     path: '/display-advertising-docs/search',
     component: ComponentCreator('/display-advertising-docs/search', '3f3'),
     exact: true

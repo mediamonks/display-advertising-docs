@@ -103,7 +103,7 @@
           },
           {
             "type": "link",
-            "label": "Create banners with commands",
+            "label": "Create banners with parameters",
             "href": "/display-advertising-docs/docs/guides/commands",
             "docId": "guides/commands"
           },
@@ -173,7 +173,7 @@
     "contributing/contributing-framework": {
       "id": "contributing/contributing-framework",
       "title": "How to update Framework",
-      "description": "Before proposing/making a change it is necessary to select the relevant repository. Here are some examples to identify the repository:",
+      "description": "Before proposing/making a change it is necessary to select the relevant repository.",
       "sidebar": "tutorialSidebar"
     },
     "contributing/create-issue": {
@@ -214,7 +214,7 @@
     },
     "guides/commands": {
       "id": "guides/commands",
-      "title": "Create banners with commands",
+      "title": "Create banners with parameters",
       "description": "Another way to create banners is using the command line with parameters. It is possible to create multiple banners using the --units parameter and is possible to define the --type of the units.",
       "sidebar": "tutorialSidebar"
     },

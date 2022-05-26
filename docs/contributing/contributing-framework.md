@@ -4,15 +4,18 @@ sidebar_position: 3
 
 # How to update Framework
 
-Before proposing/making a change it is necessary to select the relevant repository. Here are some examples to identify the repository:
+Before proposing/making a change it is necessary to select the relevant repository.
 
+
+:::info Repositories:
 - [Display Temple](https://github.com/mediamonks/display-temple): if you want to change an util, DCO event or update the FrameAnimation.
-
-- [Display Dev Server](https://github.com/mediamonks/display-dev-server): if you want to change a configuration in Webpack, install a plugin and other issues related to dev/build.
 
 - [Display Upload](https://github.com/mediamonks/display-upload): if you want to create a new upload environment or modify any of the current ones.
 
 - [Display Boilerplate](https://github.com/mediamonks/generator-display-boilerplate): if you want to modify the initial questions, add parameters, modify a template or create a new one.
+
+- [Display Dev Server](https://github.com/mediamonks/display-dev-server): if you want to change a configuration in Webpack, install a plugin and other issues related to dev/build.
+:::
 
 ## Propose a change
 

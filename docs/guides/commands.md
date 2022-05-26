@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Create banners with commands
+# Create banners with parameters
 
 Another way to create banners is using the command line with parameters. It is possible to create multiple banners using the **--units** parameter and is possible to define the **--type** of the units.
 
