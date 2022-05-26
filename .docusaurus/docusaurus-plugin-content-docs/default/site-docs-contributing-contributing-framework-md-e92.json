@@ -1,0 +1,26 @@
+{
+  "unversionedId": "contributing/contributing-framework",
+  "id": "contributing/contributing-framework",
+  "title": "How to update Framework",
+  "description": "Before proposing/making a change it is necessary to select the relevant repository. Here are some examples to identify the repository:",
+  "source": "@site/docs/contributing/contributing-framework.md",
+  "sourceDirName": "contributing",
+  "slug": "/contributing/contributing-framework",
+  "permalink": "/display-advertising-docs/docs/contributing/contributing-framework",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/contributing-framework.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to update Documentation",
+    "permalink": "/display-advertising-docs/docs/contributing/contributing-display-docs"
+  }
+}

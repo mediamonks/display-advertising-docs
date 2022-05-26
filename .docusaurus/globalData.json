@@ -21,6 +21,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "contributing/contributing-framework",
+              "path": "/display-advertising-docs/docs/contributing/contributing-framework",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "contributing/create-issue",
               "path": "/display-advertising-docs/docs/contributing/create-issue",
               "sidebar": "tutorialSidebar"

@@ -136,15 +136,21 @@
         "items": [
           {
             "type": "link",
-            "label": "How to update DisplayAd Docs",
+            "label": "How to create an issue",
+            "href": "/display-advertising-docs/docs/contributing/create-issue",
+            "docId": "contributing/create-issue"
+          },
+          {
+            "type": "link",
+            "label": "How to update Documentation",
             "href": "/display-advertising-docs/docs/contributing/contributing-display-docs",
             "docId": "contributing/contributing-display-docs"
           },
           {
             "type": "link",
-            "label": "How to create an issue (ticket)",
-            "href": "/display-advertising-docs/docs/contributing/create-issue",
-            "docId": "contributing/create-issue"
+            "label": "How to update Framework",
+            "href": "/display-advertising-docs/docs/contributing/contributing-framework",
+            "docId": "contributing/contributing-framework"
           }
         ],
         "href": "/display-advertising-docs/docs/category/contributing"
@@ -160,14 +166,20 @@
     },
     "contributing/contributing-display-docs": {
       "id": "contributing/contributing-display-docs",
-      "title": "How to update DisplayAd Docs",
-      "description": "WORK IN PROGRESS - Dawi",
+      "title": "How to update Documentation",
+      "description": "Propose a change",
+      "sidebar": "tutorialSidebar"
+    },
+    "contributing/contributing-framework": {
+      "id": "contributing/contributing-framework",
+      "title": "How to update Framework",
+      "description": "Before proposing/making a change it is necessary to select the relevant repository. Here are some examples to identify the repository:",
       "sidebar": "tutorialSidebar"
     },
     "contributing/create-issue": {
       "id": "contributing/create-issue",
-      "title": "How to create an issue (ticket)",
-      "description": "WORK IN PROGRESS - Dawi",
+      "title": "How to create an issue",
+      "description": "Issues can be created in a variety of ways, so you can choose the most convenient method for your workflow. Please follow the GitHub official docs to create a ticket.",
       "sidebar": "tutorialSidebar"
     },
     "getting-started/creating-a-new-project": {

@@ -51,14 +51,70 @@
             {
               "unversionedId": "contributing/contributing-display-docs",
               "id": "contributing/contributing-display-docs",
-              "title": "How to update DisplayAd Docs",
-              "description": "WORK IN PROGRESS - Dawi",
+              "title": "How to update Documentation",
+              "description": "Propose a change",
               "source": "@site/docs/contributing/contributing-display-docs.md",
               "sourceDirName": "contributing",
               "slug": "/contributing/contributing-display-docs",
               "permalink": "/display-advertising-docs/docs/contributing/contributing-display-docs",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/contributing-display-docs.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to create an issue",
+                "permalink": "/display-advertising-docs/docs/contributing/create-issue"
+              },
+              "next": {
+                "title": "How to update Framework",
+                "permalink": "/display-advertising-docs/docs/contributing/contributing-framework"
+              }
+            },
+            {
+              "unversionedId": "contributing/contributing-framework",
+              "id": "contributing/contributing-framework",
+              "title": "How to update Framework",
+              "description": "Before proposing/making a change it is necessary to select the relevant repository. Here are some examples to identify the repository:",
+              "source": "@site/docs/contributing/contributing-framework.md",
+              "sourceDirName": "contributing",
+              "slug": "/contributing/contributing-framework",
+              "permalink": "/display-advertising-docs/docs/contributing/contributing-framework",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/contributing-framework.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to update Documentation",
+                "permalink": "/display-advertising-docs/docs/contributing/contributing-display-docs"
+              }
+            },
+            {
+              "unversionedId": "contributing/create-issue",
+              "id": "contributing/create-issue",
+              "title": "How to create an issue",
+              "description": "Issues can be created in a variety of ways, so you can choose the most convenient method for your workflow. Please follow the GitHub official docs to create a ticket.",
+              "source": "@site/docs/contributing/create-issue.md",
+              "sourceDirName": "contributing",
+              "slug": "/contributing/create-issue",
+              "permalink": "/display-advertising-docs/docs/contributing/create-issue",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/create-issue.md",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -74,33 +130,7 @@
                 "permalink": "/display-advertising-docs/docs/category/contributing"
               },
               "next": {
-                "title": "How to create an issue (ticket)",
-                "permalink": "/display-advertising-docs/docs/contributing/create-issue"
-              }
-            },
-            {
-              "unversionedId": "contributing/create-issue",
-              "id": "contributing/create-issue",
-              "title": "How to create an issue (ticket)",
-              "description": "WORK IN PROGRESS - Dawi",
-              "source": "@site/docs/contributing/create-issue.md",
-              "sourceDirName": "contributing",
-              "slug": "/contributing/create-issue",
-              "permalink": "/display-advertising-docs/docs/contributing/create-issue",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/create-issue.md",
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "10/14/2018",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "How to update DisplayAd Docs",
+                "title": "How to update Documentation",
                 "permalink": "/display-advertising-docs/docs/contributing/contributing-display-docs"
               }
             },
@@ -692,11 +722,15 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "contributing/create-issue"
+                  },
+                  {
+                    "type": "doc",
                     "id": "contributing/contributing-display-docs"
                   },
                   {
                     "type": "doc",
-                    "id": "contributing/create-issue"
+                    "id": "contributing/contributing-framework"
                   }
                 ],
                 "link": {
