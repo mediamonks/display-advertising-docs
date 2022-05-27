@@ -4,11 +4,26 @@ sidebar_position: 1
 
 # Good practices with Handlebars
 
-You can check all the documentation about Handlebars on the [official website](https://handlebarsjs.com/guide/#what-is-handlebars). Below you can see some examples using handlebars within the framework.
+You can check all the documentation about Handlebars on the [official website](https://handlebarsjs.com/guide/#what-is-handlebars). Below you can see some examples using handlebars with the framework.
 
 :::caution
 WORK IN PROGRESS - Dawi
 :::
+
+### Conditionals
+
+```js title="/src/shared/index.hbs" {3,5}
+<div class="banner border">
+    <div class="content fullscreen">
+      {{#if settings.hasCaptain}}
+        <div class="captainSequence"></div>
+      {{/if}}
+    </div>
+    <div class="mainExit fullscreen"></div>
+</div>
+```
+
+### Use loops
 
 
 ```js title="/src/shared/index.hbs"

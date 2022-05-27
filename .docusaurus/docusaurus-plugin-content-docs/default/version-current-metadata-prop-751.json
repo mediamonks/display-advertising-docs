@@ -263,7 +263,7 @@
     "guides/using-handlebars": {
       "id": "guides/using-handlebars",
       "title": "Good practices with Handlebars",
-      "description": "You can check all the documentation about Handlebars on the official website. Below you can see some examples using handlebars within the framework.",
+      "description": "You can check all the documentation about Handlebars on the official website. Below you can see some examples using handlebars with the framework.",
       "sidebar": "tutorialSidebar"
     },
     "guides/using-utils": {
