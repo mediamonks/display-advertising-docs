@@ -13,7 +13,7 @@ the project.
 In the terminal, make your way to a new project folder of your choosing, e.g. _**documents/work/my-banner-project**_.
 
 ```terminal
-yo display-templates
+yo display-boilerplate
 ```
 
 In this menu you can use the arrow keys to navigate the cursor.

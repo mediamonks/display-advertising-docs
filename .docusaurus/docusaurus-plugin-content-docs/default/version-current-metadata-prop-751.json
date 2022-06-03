@@ -60,6 +60,12 @@
         "docId": "banner-validation"
       },
       {
+        "type": "link",
+        "label": "Lifecycle of a banner",
+        "href": "/display-advertising-docs/docs/lifecycle",
+        "docId": "lifecycle"
+      },
+      {
         "type": "category",
         "label": "Guides",
         "collapsible": true,
@@ -115,7 +121,7 @@
           },
           {
             "type": "link",
-            "label": "GSDevTools",
+            "label": "Gsap",
             "href": "/display-advertising-docs/docs/guides/GSDevTools",
             "docId": "guides/GSDevTools"
           },
@@ -250,8 +256,8 @@
     },
     "guides/GSDevTools": {
       "id": "guides/GSDevTools",
-      "title": "GSDevTools",
-      "description": "Put in your preview url for debugging:",
+      "title": "Gsap",
+      "description": "Using events",
       "sidebar": "tutorialSidebar"
     },
     "guides/inline-svg": {
@@ -270,6 +276,12 @@
       "id": "guides/using-utils",
       "title": "Temple utils",
       "description": "Multiple utils are included in the display-temple repository that can save us a lot of work. Below are some examples:",
+      "sidebar": "tutorialSidebar"
+    },
+    "lifecycle": {
+      "id": "lifecycle",
+      "title": "Lifecycle of a banner",
+      "description": "1. Main",
       "sidebar": "tutorialSidebar"
     },
     "richmediarc": {

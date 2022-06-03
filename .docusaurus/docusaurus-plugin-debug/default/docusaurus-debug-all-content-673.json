@@ -44,8 +44,8 @@
                 "permalink": "/display-advertising-docs/docs/richmediarc"
               },
               "next": {
-                "title": "Guides",
-                "permalink": "/display-advertising-docs/docs/category/guides"
+                "title": "Lifecycle of a banner",
+                "permalink": "/display-advertising-docs/docs/lifecycle"
               }
             },
             {
@@ -366,7 +366,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "GSDevTools",
+                "title": "Gsap",
                 "permalink": "/display-advertising-docs/docs/guides/GSDevTools"
               },
               "next": {
@@ -400,7 +400,7 @@
                 "permalink": "/display-advertising-docs/docs/guides/commands"
               },
               "next": {
-                "title": "GSDevTools",
+                "title": "Gsap",
                 "permalink": "/display-advertising-docs/docs/guides/GSDevTools"
               }
             },
@@ -467,8 +467,8 @@
             {
               "unversionedId": "guides/GSDevTools",
               "id": "guides/GSDevTools",
-              "title": "GSDevTools",
-              "description": "Put in your preview url for debugging:",
+              "title": "Gsap",
+              "description": "Using events",
               "source": "@site/docs/guides/GSDevTools.md",
               "sourceDirName": "guides",
               "slug": "/guides/GSDevTools",
@@ -585,6 +585,36 @@
               }
             },
             {
+              "unversionedId": "lifecycle",
+              "id": "lifecycle",
+              "title": "Lifecycle of a banner",
+              "description": "1. Main",
+              "source": "@site/docs/lifecycle.md",
+              "sourceDirName": ".",
+              "slug": "/lifecycle",
+              "permalink": "/display-advertising-docs/docs/lifecycle",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/lifecycle.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "10/14/2018",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Banner Validation",
+                "permalink": "/display-advertising-docs/docs/banner-validation"
+              },
+              "next": {
+                "title": "Guides",
+                "permalink": "/display-advertising-docs/docs/category/guides"
+              }
+            },
+            {
               "unversionedId": "richmediarc",
               "id": "richmediarc",
               "title": "Configuration files",
@@ -659,6 +689,10 @@
               {
                 "type": "doc",
                 "id": "banner-validation"
+              },
+              {
+                "type": "doc",
+                "id": "lifecycle"
               },
               {
                 "type": "category",

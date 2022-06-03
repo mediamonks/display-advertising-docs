@@ -5,8 +5,8 @@
   "permalink": "/display-advertising-docs/docs/category/guides",
   "navigation": {
     "previous": {
-      "title": "Banner Validation",
-      "permalink": "/display-advertising-docs/docs/banner-validation"
+      "title": "Lifecycle of a banner",
+      "permalink": "/display-advertising-docs/docs/lifecycle"
     },
     "next": {
       "title": "Good practices with Handlebars",

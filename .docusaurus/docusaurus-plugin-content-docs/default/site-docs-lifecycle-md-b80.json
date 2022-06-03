@@ -1,0 +1,30 @@
+{
+  "unversionedId": "lifecycle",
+  "id": "lifecycle",
+  "title": "Lifecycle of a banner",
+  "description": "1. Main",
+  "source": "@site/docs/lifecycle.md",
+  "sourceDirName": ".",
+  "slug": "/lifecycle",
+  "permalink": "/display-advertising-docs/docs/lifecycle",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/lifecycle.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Banner Validation",
+    "permalink": "/display-advertising-docs/docs/banner-validation"
+  },
+  "next": {
+    "title": "Guides",
+    "permalink": "/display-advertising-docs/docs/category/guides"
+  }
+}
