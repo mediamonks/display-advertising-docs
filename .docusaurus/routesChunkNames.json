@@ -48,7 +48,7 @@
       "plugin": "plugin---display-advertising-docs-search-3-aa-27f"
     }
   },
-  "/display-advertising-docs/docs-064": {
+  "/display-advertising-docs/docs-0e3": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---display-advertising-docs-docs-6-cc-84b"
@@ -127,9 +127,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---display-advertising-docs-docs-guides-google-spreadsheets-feed-48-e-224"
   },
-  "/display-advertising-docs/docs/guides/GSDevTools-84d": {
+  "/display-advertising-docs/docs/guides/gsap-2f0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---display-advertising-docs-docs-guides-gs-dev-tools-3-e-6-fc8"
+    "content": "content---display-advertising-docs-docs-guides-gsap-615-cc9"
   },
   "/display-advertising-docs/docs/guides/inline-svg-2e6": {
     "__comp": "__comp---theme-doc-item-178-a40",

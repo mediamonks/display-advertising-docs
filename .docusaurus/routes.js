@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/display-advertising-docs/docs',
-    component: ComponentCreator('/display-advertising-docs/docs', '064'),
+    component: ComponentCreator('/display-advertising-docs/docs', '0e3'),
     routes: [
       {
         path: '/display-advertising-docs/docs/banner-validation',
@@ -155,8 +155,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/display-advertising-docs/docs/guides/GSDevTools',
-        component: ComponentCreator('/display-advertising-docs/docs/guides/GSDevTools', '84d'),
+        path: '/display-advertising-docs/docs/guides/gsap',
+        component: ComponentCreator('/display-advertising-docs/docs/guides/gsap', '2f0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
