@@ -281,7 +281,7 @@
     "lifecycle": {
       "id": "lifecycle",
       "title": "Lifecycle of a banner",
-      "description": "1. Main",
+      "description": "| Step                    | What happens at that moment                          |",
       "sidebar": "tutorialSidebar"
     },
     "richmediarc": {

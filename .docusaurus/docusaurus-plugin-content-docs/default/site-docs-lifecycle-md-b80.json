@@ -2,7 +2,7 @@
   "unversionedId": "lifecycle",
   "id": "lifecycle",
   "title": "Lifecycle of a banner",
-  "description": "1. Main",
+  "description": "| Step                    | What happens at that moment                          |",
   "source": "@site/docs/lifecycle.md",
   "sourceDirName": ".",
   "slug": "/lifecycle",

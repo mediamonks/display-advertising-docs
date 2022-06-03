@@ -4,14 +4,11 @@ sidebar_position: 4
 
 # Lifecycle of a banner
 
-1. Main
-2. Banner init (loadImages, loadFonts, addEventListener)
-3. Create animation
-4. SetAnimation
-5. Banner Start
-6. onStartAnimation
-7. onCompleteAnimation
 
-:::caution
-WORK IN PROGRESS - Dawi
-:::
+| **Step**                    | **What happens at that moment**                          |
+|-----------------------------|----------------------------------------------------------|
+| 1) Banner init              | Load images, fonts and add listeners                     |
+| 2) Create and set animation | Set timeline with all the frames and add eventCallback   |
+| 3) Banner start             | Run the animation of the banner.                         |
+| 4) Animation start          | Invoke the eventCallback that the animation started      |
+| 5) Animation complete       | Invokes the eventCallback that the animation is complete |
