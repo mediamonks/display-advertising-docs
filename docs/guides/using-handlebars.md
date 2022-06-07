@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # Good practices with Handlebars
 
-You can check all the documentation about Handlebars on the [official website](https://handlebarsjs.com/guide/#what-is-handlebars). Below you can see some examples using handlebars with the framework.
-
 :::caution
 WORK IN PROGRESS - Dawi
 :::
+
+You can check all the documentation about Handlebars on the [official website](https://handlebarsjs.com/guide/#what-is-handlebars). Below you can see some examples using handlebars with the framework.
 
 ### Conditionals
 

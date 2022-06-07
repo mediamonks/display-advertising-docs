@@ -41,10 +41,10 @@ onAnimationStart = () => {
 
 ## Enable GSDevTools
 
-Put in your preview url for debugging:
+You can enable the debug mode with GSDevTools, just add the `gsdevtools=true` parameter in the url. Example:
 
 ```terminal
-gsdevtools=true
+http://localhost:8000/?gsdevtools=true
 ```
 
 ![Scaffold1](/img/gsdevtools.png)

@@ -263,13 +263,13 @@
     "guides/inline-svg": {
       "id": "guides/inline-svg",
       "title": "Inline SVG",
-      "description": "Now when adding inline to a img tag and the image has the extension .svg the svg will be inlined",
+      "description": "WORK IN PROGRESS - Dawi",
       "sidebar": "tutorialSidebar"
     },
     "guides/using-handlebars": {
       "id": "guides/using-handlebars",
       "title": "Good practices with Handlebars",
-      "description": "You can check all the documentation about Handlebars on the official website. Below you can see some examples using handlebars with the framework.",
+      "description": "WORK IN PROGRESS - Dawi",
       "sidebar": "tutorialSidebar"
     },
     "guides/using-utils": {
@@ -281,7 +281,7 @@
     "lifecycle": {
       "id": "lifecycle",
       "title": "Lifecycle of a banner",
-      "description": "| Step                    | What happens at that moment                          |",
+      "description": "| Action                  | What happens at that moment                          |",
       "sidebar": "tutorialSidebar"
     },
     "richmediarc": {

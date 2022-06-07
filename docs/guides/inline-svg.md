@@ -4,7 +4,11 @@ sidebar_position: 4
 
 # Inline SVG
 
-Now when adding inline to a img tag and the image has the extension .svg the svg will be inlined 
+:::caution
+WORK IN PROGRESS - Dawi
+:::
+
+Now when adding inline to a img tag and the image has the extension .svg the svg will be inlined.
 
 ```html title="/src/300x250/index.hbs" {6}
 <html>

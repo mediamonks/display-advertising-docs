@@ -5,7 +5,7 @@ sidebar_position: 4
 # Lifecycle of a banner
 
 
-| **Step**                    | **What happens at that moment**                          |
+| **Action**                  | **What happens at that moment**                          |
 |-----------------------------|----------------------------------------------------------|
 | 1) Banner init              | Load images, fonts and add listeners                     |
 | 2) Create and set animation | Set timeline with all the frames and add eventCallback   |

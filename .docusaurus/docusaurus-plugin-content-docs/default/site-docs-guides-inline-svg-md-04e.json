@@ -2,7 +2,7 @@
   "unversionedId": "guides/inline-svg",
   "id": "guides/inline-svg",
   "title": "Inline SVG",
-  "description": "Now when adding inline to a img tag and the image has the extension .svg the svg will be inlined",
+  "description": "WORK IN PROGRESS - Dawi",
   "source": "@site/docs/guides/inline-svg.md",
   "sourceDirName": "guides",
   "slug": "/guides/inline-svg",
