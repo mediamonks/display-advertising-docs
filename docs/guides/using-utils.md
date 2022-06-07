@@ -28,7 +28,7 @@ You can check all the utils inside [the github repository](https://github.com/me
  * }}
  */
 
-import Browser from "@mediamonks/temple/util/Browser";
+import Browser from "@mediamonks/display-temple/util/Browser";
 
 console.log(Browser.isChrome)
 ```
@@ -41,7 +41,7 @@ console.log(Browser.isChrome)
  * @param {Array<HTMLElement>} copyElements
  */
 
-import fitText from "@mediamonks/temple/util/fitText";
+import fitText from "@mediamonks/display-temple/util/fitText";
 
 const title = document.body.querySelector('.title');
 const ctaCopy = document.body.querySelector('.cta_copy');
@@ -62,7 +62,7 @@ fitText([title, ctaCopy]);
  * @returns {Promise<HTMLImageElement>}
  */
 
-import isElementLoaded from "@mediamonks/temple/util/isElementLoaded";
+import isElementLoaded from "@mediamonks/display-temple/util/isElementLoaded";
 
 
 isElementLoaded('svg.logo')
@@ -86,7 +86,7 @@ isElementLoaded('.containerHidden', 2000)
  * @return {Promise<Array>}
  */
 
-import loadAll from "@mediamonks/temple/util/loadAll";
+import loadAll from "@mediamonks/display-temple/util/loadAll";
 
 loadAll(['./my_example_image.png', './my_example_image2.png', './my_example_image3.png'], true)
     .then(() => console.log('all loaded!'))
@@ -109,7 +109,7 @@ loadAll(['./custom_image.png'])
  * @return {Promise<Array>}
  */
 
-import loadImage from "@mediamonks/temple/util/loadImage";
+import loadImage from "@mediamonks/display-temple/util/loadImage";
 
 loadImage(['./background.png'])
     .then(() => console.log('image loaded'))
@@ -129,7 +129,7 @@ loadImage(['./background.png'])
  * @return {Promise<Array>}
  */
 
-import loadScriptAll from "@mediamonks/temple/util/loadScriptAll";
+import loadScriptAll from "@mediamonks/display-temple/util/loadScriptAll";
 
 loadScriptAll(['./mycustomScript.js', './mycustomScript2.js', './mycustomScript3.js'], true);
     .then(() => console.log('scripts loaded'))
@@ -148,7 +148,7 @@ loadScriptAll(['./mycustomScript.js', './mycustomScript2.js', './mycustomScript3
  * @return {Promise<Array>}
  */
 
-import loadJSON from "@mediamonks/temple/util/loadJSON";
+import loadJSON from "@mediamonks/display-temple/util/loadJSON";
 
 loadJSON('https://jsonplaceholder.typicode.com/todos/1')
     .then((data) => console.log(data))
@@ -167,7 +167,7 @@ loadJSON('https://jsonplaceholder.typicode.com/todos/1')
  * @return {Promise<unknown>}
  */
 
-import masker from "@mediamonks/temple/util/masker";
+import masker from "@mediamonks/display-temple/util/masker";
 
 masker(['./bg.jpg', './bg_transparent_white_small.png'], document.body.querySelectorAll('.wrapper'))
     .then(() => console.log('mask ready'))
@@ -188,7 +188,7 @@ masker(['./bg.jpg', './bg_transparent_white_small.png'], document.body.querySele
  * @returns {string>}
  */
 
-import rgbToHex from "@mediamonks/temple/util/rgbToHex";
+import rgbToHex from "@mediamonks/display-temple/util/rgbToHex";
 
 rgbToHex(0, 51, 255)
 ```
