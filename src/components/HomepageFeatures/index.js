@@ -5,6 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Display Boilerplate',
+    url: 'https://github.com/mediamonks/generator-display-boilerplate',
     Svg: require('@site/static/img/generatorRule.svg').default,
     description: (
       <>
@@ -14,6 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Display Temple',
+    url: 'https://github.com/mediamonks/display-temple',
     Svg: require('@site/static/img/codingHtml.svg').default,
     description: (
       <>
@@ -23,6 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Display Development Server',
+    url: 'https://github.com/mediamonks/display-dev-server',
     Svg: require('@site/static/img/server.svg').default,
     description: (
       <>
@@ -32,6 +35,7 @@ const FeatureList = [
   },
   {
     title: 'Display Upload',
+    url: 'https://github.com/mediamonks/display-upload',
     Svg: require('@site/static/img/displayUpload.svg').default,
     description: (
       <>
@@ -41,9 +45,13 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, url}) {
+  const openUrl = () => {
+    window.open(url,'_blank');
+  };
+
   return (
-    <div className={clsx('col col--3')}>
+    <div className={clsx('col col--3 featureItem')} onClick={openUrl}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

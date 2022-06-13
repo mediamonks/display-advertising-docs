@@ -40,3 +40,7 @@ html[data-theme='dark'] .hero--primary .hero__subtitle  {
 .hero--primary {
   background-color: #5b0e85 !important;
 }
+
+.featureItem {
+  cursor: pointer !important;
+}
