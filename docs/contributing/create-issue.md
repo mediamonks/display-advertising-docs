@@ -12,3 +12,7 @@ Issues can be created in a variety of ways, so you can choose the most convenien
 3. **Assign** the ticket to people in the team.
 4. **Insist** if there is no answer in the ticket, the idea is that it be collaborative.
 :::
+
+:::info
+Remember to attach the versions of the **dependencies** you are using, and also your **NodeJS** version.
+:::

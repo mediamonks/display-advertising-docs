@@ -2,11 +2,13 @@
 sidebar_position: 4
 ---
 
-# Inline SVG
+# SVG
 
 :::caution
 WORK IN PROGRESS - Dawi
 :::
+
+## Using the default inline
 
 Now when adding inline to a img tag and the image has the extension .svg the svg will be inlined.
 
@@ -54,3 +56,5 @@ You can also do this with handlebars same result:
 </body>
 </html>
 ```
+
+## Using the inlineSvg Util
