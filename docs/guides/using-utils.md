@@ -48,8 +48,32 @@ const ctaCopy = document.body.querySelector('.cta_copy');
 
 fitText([title, ctaCopy]);
 ```
+Import fitText from the display-temple/util library.
 
+Use fitText on the child element where you want to apply the font size scaling, to fit the parent container.
 
+And put the styling i.g. font size, width and height on the parent container
+
+```css
+.parent_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 50%;
+    font-family: OpenSans, sans-serif;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+```
+
+Here is an example on how it would look like in the dom:
+
+```html
+<div class="parent_container">
+    <div class="child_container">Hello World</div>
+</div>
+```
 
 ## isElementLoaded
 ```js
