@@ -14,7 +14,7 @@ sidebar_position: 1
 
 
 :::caution
-We recommend to use  **Node v14.x.x**.
+We recommend to use  **Node v16.x.x**.
 :::
 
 
