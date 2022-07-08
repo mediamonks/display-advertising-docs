@@ -64,3 +64,7 @@ found 2 ad(s)
 ? Please select fps to record at 30
 ```
 
+:::important
+- Ad Recorder records only one GSAP timeline, therefore, your animation needs to exist out of one main GSAP timeline that includes all the animations.
+- Recording video from an ad is not supported.
+:::
