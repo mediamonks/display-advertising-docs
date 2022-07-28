@@ -20,12 +20,12 @@ WORK IN PROGRESS - Pablo / Dawi
 
 ## Feed configuration
 
-The Generate Code contains some important information, such as the Profile Id and the general structure of the data feed you'll be using.
-The Generate Code is the tool you need to develop your creative unit in a dynamic way.
+The Generate Code contains some important information, such as the Profile Id and the general structure of the data feed you'll be using. The Generate Code is the tool you need to develop your creative unit in a dynamic way.
 
-Data teams should be responsible for setting up Studio enviroment and handing you the Generate Code.
+Data team should be responsible for setting up the Studio environment and handing you the Generate Code.
 
-You must replace Studio's Generated Code in the getDynamicData() function in the getDynamicData.js file of your project. 
+You must replace Studio's Generated Code in the getDynamicData() function in the getDynamicData.js file of your project.
+
 
 
 ```js
@@ -70,7 +70,7 @@ export default function getDynamicData() {
 ```
 
 
-In your Banner.js file you will setting up your feed variable with the getDynamicData() function.
+In your Banner.js file you will be setting up your feed variable with the getDynamicData() function.
 
 ```js
 async init() {
@@ -80,8 +80,9 @@ async init() {
 }
 ```
 
-You can now access the dynamic information of the feed by calling it's atributes.
+You can now access the dynamic information of the feed by calling its attributes.
 This way you are connecting these values to the dynamic data feed. The values will change accordingly once the unit is uploaded to the Studio environment.
+
 
 ```js
 async init() {
@@ -104,7 +105,7 @@ https://support.google.com/richmedia/answer/3526354?hl=en#zippy=%2Csample-setup-
 :::
 
 :::caution
-Note that it is possible to receive a multiple-feed generate code for your project. Please check the Tips & tricks section for further information.
+Note that it is possible to receive a multiple-feed Generate Code for your project. Please check the Tips & tricks section for further information.
 :::
 
 
