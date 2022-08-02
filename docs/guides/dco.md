@@ -104,7 +104,7 @@ For further information visit:
 https://support.google.com/richmedia/answer/3526354?hl=en#zippy=%2Csample-setup-code-from-step-generate-code
 :::
 
-:::caution
+:::caution important
 Note that it is possible to receive a multiple-feed Generate Code for your project. Please check the Tips & tricks section for further information.
 :::
 
@@ -113,10 +113,63 @@ Note that it is possible to receive a multiple-feed Generate Code for your proje
 [to complete]
 
 ## Enabler
-:::caution
-The Profile Id number is the code responsible of linking your creative with the Studio profile.
+
+The Enabler is a library required for all DCO creatives in Studio. It provides a singleton object in the global namespace called Enabler. You can call methods on it.
+The Enabler ensures that your creative includes standard tracking functionality for metrics.
+
+In the index.hbs file of your project you will find the script tag that links to the Enabler. You must also set the Profile Id number here.
+
+```js
+  <script src="https://s0.2mdn.net/ads/studio/Enabler.js">
+    // please change profile id.
+    Enabler.setProfileId(1075235);
+  </script>
+```
+
+In the Banner.js file, you will find a util that is used to wait for the Enabler to be ready before initializing the banner.
+
+```js
+import untilEnablerIsInitialized from '@mediamonks/temple/doubleclick/untilEnablerIsInitialized';
+...
+  async init() {
+    await untilEnablerIsInitialized();
+    ...
+  }
+  ...
+```
+
+
+:::info
+The Profile Id number is the code for linking your creative with the Studio profile.
+
+For further information visit https://support.google.com/richmedia/answer/2672553?hl=en
 :::
-[to complete]
 
 ### ExitUrl
-[to complete]
+
+If the exit URL is assigned through the feed, you can use something like this in your Banner.js file:
+```js
+  async init() {
+    ...
+    this.mainExit = this.feed.exitUrl.Url;
+    ...
+  }
+```
+
+The default method used in our framework is an Enabler method.
+The first parameter is an ID that can be used to override the exit later if needed and the second parameter is the URL you've assigned.
+```js
+  handleClick = () => {
+    Enabler.exitOverride('Default Exit', this.mainExit);
+  };
+```
+
+:::caution important
+Producers may ask you to use a different method to cover some specific needs. 
+
+You can find more information about Enabler methods here: https://www.google.com/doubleclick/studio/docs/sdk/html5/en/class_studio_Enabler.html#api
+:::
+
+:::info
+For further information on DCO exits visit https://support.google.com/richmedia/answer/2664807?hl=en
+:::
