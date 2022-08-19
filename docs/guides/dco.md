@@ -91,7 +91,7 @@ async init() {
     const title = document.body.querySelector('#title');
 
     // Asign values
-    title1.innerHTML = this.feed.Headline_Copy;
+    title.innerHTML = this.feed.Headline_Copy;
     ...
 
 }
