@@ -63,3 +63,55 @@ A common use-case for block helpers is using them to define custom iterators. In
     }
   }
 ```
+
+## Custom Helpers
+
+:::info
+To use these helpers you need **display-dev-server v10.1.4** or more.
+:::
+
+### getSize
+
+It is necessary to pass the parameter settings:
+
+```html title="/src/shared/index.hbs" {3}
+<div class="banner border">
+    <div class="content fullscreen">
+      {{getSize settings}} // output: 300x250
+    </div>
+    <div class="mainExit fullscreen"></div>
+</div>
+```
+
+### compare
+
+Make validations very easy, using operators ('==', '===', '!=', '!==', '<', '>', '<=', 'typeof'):
+
+```html title="/src/shared/index.hbs" {3,5,7,9}
+<div class="banner border">
+    <div class="content fullscreen">
+      {{#compare content.master "MASTER1"}}
+        some_nice_layout
+      {{/compare}}
+
+      {{#compare content.frames ">" 5}}
+        There are more than 5 frames
+      {{/compare}}
+    </div>
+    <div class="mainExit fullscreen"></div>
+</div>
+```
+
+### brackets
+
+Similar to template strings. The number change now many brackets do you want to output.
+
+
+```html title="/src/shared/index.hbs" {3}
+<div class="banner border">
+    <div class="content fullscreen">
+      {{#brakets 2}}content.copy1_{{getSize settings}}{{/brakets} // output: {{content.copy1_300x250}}
+    </div>
+    <div class="mainExit fullscreen"></div>
+</div>
+```
