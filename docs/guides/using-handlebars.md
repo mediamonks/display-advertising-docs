@@ -110,7 +110,7 @@ Similar to template strings. The number change now many brackets do you want to 
 ```html title="/src/shared/index.hbs" {3}
 <div class="banner border">
     <div class="content fullscreen">
-      {{#brakets 2}}content.copy1_{{getSize settings}}{{/brakets} // output: {{content.copy1_300x250}}
+      {{#brackets 2}}content.copy1_{{getSize settings}}{{/brackets} // output: {{content.copy1_300x250}}
     </div>
     <div class="mainExit fullscreen"></div>
 </div>
