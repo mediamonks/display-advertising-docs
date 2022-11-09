@@ -64,6 +64,52 @@ A common use-case for block helpers is using them to define custom iterators. In
   }
 ```
 
+## Partials
+
+Handlebars allows for template reuse through partials. [Partials](https://handlebarsjs.com/guide/partials.html) are normal Handlebars templates that may be called directly by other templates.
+
+Below you can see some examples using partials with the framework:
+
+### Basic partials
+
+```html title="/src/shared/components/menuItems.hbs"
+<div class="listWrapper">
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+</div>
+```
+
+```html title="/src/shared/index.hbs" {3}
+<div class="banner border">
+    <div class="content fullscreen">
+      {{> components/menuItems }}
+    </div>
+    <div class="mainExit fullscreen"></div>
+</div>
+```
+
+### Partials with parameter
+
+```html title="/src/shared/myExamplePartial.hbs"
+<p>width: {{settings.size.width}}</p>
+<p>height: {{settings.size.height}}</p>
+```
+
+```html title="/src/shared/index.hbs" {3}
+<div class="banner border">
+    <div class="content fullscreen">
+      {{> myExamplePartial settings }}
+    </div>
+    <div class="mainExit fullscreen"></div>
+</div>
+```
+
+If you repeat a lot of html, a good practice would be to separate it into components.
+
+
 ## Custom Helpers
 
 :::info
