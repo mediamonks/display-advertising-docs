@@ -4,10 +4,6 @@ sidebar_position: 2
 
 # Configuration files
 
-:::caution
-WORK IN PROGRESS - Paulie
-:::
-
 By default the `.richmediarc`  file(s) and `.sharedrc` file are the configuration files of your project. The .richmediarc file gets generated in the root directory of your creative, i.e. /src/300x250, when you start a new project. Connected to the .richmediarc file is a global parent configuration file .sharedrc, which you can find in the shared folder. Webpack grabs the values from these files and hardcodes them into the compiled creative when you preview or build your creatives.
 
 ### Live reload
@@ -41,7 +37,6 @@ The .richmediarc config file contains all size (i.e. 300x250) and version (i.e â
     }
   },
   "content": {  // optional: can put anything in here.
-
   }
 }
 ```
@@ -72,13 +67,8 @@ The .sharedrc contains the overall data, such as for example, defining the logo 
 }
 ```
 :::tip
-
 *Check [this page](./guides/font-subsetting.md) for more info on font-subsetting.
-
 :::
-
-
-
 
 ## Basic .richmediarc concepts
 
@@ -170,14 +160,24 @@ body {
 
 The main javascript file (conveniently named `./js/main.js`) imports the .richmediarc files as follows and passes this object into the Banner constructor.
 
-```js {3,5}
+```js
 import Banner from "./Banner";
 import Animation from "./Animation";
+
+// config will contain the final .richmediarc content. So if a .richmediarc
+// inherits from a other .richmediarc it will also contain those files.
 import config from "richmediaconfig";
 
-const banner = new Banner(document.querySelector('.banner'), config);
-banner.addAnimation(new Animation())
-banner.start();
+const banner = new Banner(config);
+//first load fonts, load images etc in the init animation
+banner.init().then(
+  () => {
+    //initializes animation and creates main timeline
+    banner.setAnimation(new Animation(document.querySelector('.banner'), config));
+    //plays banner
+    banner.start()
+  }
+)
 ```
 
 Which also passes the config object to the Animation constructor. From there, you are able to retrieve pretty much every value from the .richmediarc.
