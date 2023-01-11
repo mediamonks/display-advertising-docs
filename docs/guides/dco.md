@@ -24,7 +24,7 @@ The Generate Code contains some important information, such as the Profile Id an
 
 Data team should be responsible for setting up the Studio environment and handing you the Generate Code.
 
-You must replace Studio's Generated Code in the getDynamicData() function in the getDynamicData.js file of your project.
+You must replace the default code for the Studio's Generated Code in the getDynamicData() function in the getDynamicData.js file of your project.
 
 
 
@@ -110,7 +110,66 @@ Note that it is possible to receive a multiple-feed Generate Code for your proje
 
 
 ## Tips & tricks
-[to complete]
+If you receive a multiple-feed Generate Code you may find useful to return the feed as a simplified key-value pair of the various feeds that you can then access in the Banner.js from the "feed" variable. This way you can access to every feed separately as needed.
+
+Here is an example: 
+
+```js
+export default function getDynamicData() {
+
+  /*****************************************************************************************************************************
+   *  Paste DC Dynamic Code HERE                                                                                               *
+   *****************************************************************************************************************************/
+
+  // Dynamic Content variables and sample values
+    Enabler.setProfileId(1075235); 
+    var devDynamicContent = {};
+
+    devDynamicContent.Campaign_Feed = [{}];
+    devDynamicContent.Campaign_Feed[0]._id = 0;
+    devDynamicContent.Campaign_Feed[0].CTA_Copy = "Get started";
+    devDynamicContent.Campaign_Feed[0].Headline_Copy = "One-click ecommerce integrations_Connect your online store in no time_Email + SMS just got easier";
+
+    devDynamicContent.Selection_Feed = [{}];
+    devDynamicContent.Selection_Feed[0]._id = 0;
+    devDynamicContent.Selection_Feed[0].Image_Series = "CeramistStudio";
+    devDynamicContent.Selection_Feed[0].Image_Reporting = "CeramistStudioPotteryWheel_CeramistSmilingStudio_WooCommerce";
+
+    devDynamicContent.Destination_Feed = [{}];
+    devDynamicContent.Destination_Feed[0]._id = 0;
+    devDynamicContent.Destination_Feed[0].CTA_Button_Color = "Charcoal";
+    devDynamicContent.Destination_Feed[0].Background_Color = "Cotton";
+
+    Enabler.setDevDynamicContent(devDynamicContent);
+
+  /*****************************************************************************************************************************
+   *  END Paste DC Dynamic Code                                                                                                *
+   *****************************************************************************************************************************/
+
+    let feedNames = Object.keys(devDynamicContent);
+
+    const multipleFeed = Object.fromEntries(feedNames.map(
+        (fName) => [fName, window.dynamicContent[fName][0]])
+      );
+
+    return multipleFeed;
+}
+```
+
+
+And in your Banner.js:
+
+```js
+
+async init() {
+    ...
+    this.feed = getDynamicData();
+    let ctaCopy = this.feed.Campaign_Feed.CTA_Copy; // 'Get started'
+    ...
+}
+
+```
+
 
 ## Enabler
 
