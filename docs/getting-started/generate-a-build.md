@@ -42,18 +42,21 @@ npm run build:selection
 
 It will now compile the banners you selected and then move these files to the ./build directory, along with zipped files which you can use for delivering files or uploading to certain previews.
 
-### Custom build parameters
+### Build parameters
 This parameter might come in handy if you want to create multiple packages (versions) of zips, or if you want to build ads to separate folders.
 There is a parameter outputDir available that you can run along with the build command.
 
-| Property |  Description | Example values |
-| ----------- |  ----------- | ----------- |
-| --outputDir or -o | output directory, by default ./build | ./build/version1/
-| --skipBuild | skip compiling ads phase | 
-| --skipPreview | skip preview building phase | 
+| <div style={{width:180 + 'px'}}>Property</div>|  Description | 
+| :------ |  :--- | 
+| **--outputDir** | Relative output directory, shorthand is -o. By default `./build`, but you can change it to for example `./build/version1/`
+| **--skipBuild** | Boolean, if it exists, skip compiling ads phase. The --skipBuild variable is useful when you for example already have created ads from Animate CC or Google Web Designer available and you only want to create a preview page around that in order to preview them around.| 
+| **--skipPreview** | Boolean, if it exists, skip preview building phase. The --skipBuild variable is useful when you for example first want to build your files, create backup images/video via the ads recorder and then want to create a preview page from all of that together. | 
 
-#### Via the Commandline
-Use the build command
+
+
+#### Examples
+##### Via the Commandline
+Use the build command creating a custom output dir and skipping building the ads (so only adding the preview page files)
 ```terminal
 npm run build -- --outputDir ./build/version1/ --skipBuild
 ```
@@ -64,14 +67,39 @@ or the shorthand version:
 npm run build -- -o ./build/version1/ --skipBuild
 ```
 
-#### In your package.json
-Use the dds command
+##### In your package.json
+Use the dds command creating a custom output dir and skipping building the preview page (so only build the ads)
 ```terminal
 "build:version1": "dds --mode production -o ./build/version1/" --skipPreview
 ```
 
-#### Advanced combinations
+##### Advanced combinations
 Example with a glob and a preview command, for automizing purposes:
 ```terminal
 "build-preview:version1": "dds --mode production -o ./build/version1/ --choices eyJsb2NhdGlvbiI6WyJhbGwiXSwiZW1wdHlCdWlsZERpciI6dHJ1ZX0= && display-upload -t mm-preview -i ./build/version1 -o 1f08c1d9-b4f1-4a47-831b-409cf070b151/version1/"
+```
+
+Or use combinations of the different scripts, here in `doall:v1`, `build:v1` and `upload:v1` are combined to one new script
+```terminal
+"build:v1": "dds --mode production -o build/v1",
+"upload:v1": "display-upload -t mm-preview -i build/v1 -o 12528e62-6871-47de-abd1-6144e476bc73/v1/",
+"doall:v1": "npm run build:v1 && npm run upload:v1",
+```
+
+#### Mediamonks Preview Page
+The `mm-preview` page is our most common used and custom homemade webpage for displaying ads.
+It is build in React and has a couple of nice features.
+
+![alt text](/img/preview_react.png)
+
+##### data.json
+The page loads in a data file with all information that is needed, such as paths to html/jpg/mp4 and widths and heights of each unit.
+When you recorded things like gifs, backup images, it will take this in the data.json file as well and store it for eventually prev
+
+##### maxFileSize
+You can set a `maxFileSize`parameter in the `.richmediarc` or `.sharedrc` config file. It will check the filesize in the preview and give a green or red label comparing it to the given filesize.
+```terminal
+"settings": {
+  "maxFileSize": "100"
+}
 ```
