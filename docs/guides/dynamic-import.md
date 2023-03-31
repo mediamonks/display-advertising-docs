@@ -18,7 +18,7 @@ const createBanner = (Animation) => {
   const banner = new Banner(config);
 
   banner.init().then(() => {
-      banner.setAnimation(new Animation.default((document.querySelector('.banner'), config)));
+      banner.setAnimation(new Animation.default(document.querySelector('.banner'), config));
       banner.start()
     }
   )
