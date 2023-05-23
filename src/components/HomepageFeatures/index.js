@@ -43,6 +43,16 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'Display Ads Recorder',
+    url: 'https://github.com/mediamonks/display-ads-recorder',
+    Svg: require('@site/static/img/adsRecorder.svg').default,
+    description: (
+      <>
+        Used to records html5 ads and export multiple formats.
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description, url}) {
@@ -51,7 +61,7 @@ function Feature({Svg, title, description, url}) {
   };
 
   return (
-    <div className={clsx('col col--3 featureItem')} onClick={openUrl}>
+    <div className={clsx('col col--2 featureItem')} onClick={openUrl}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
@@ -67,7 +77,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        <div className="row featureRow">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

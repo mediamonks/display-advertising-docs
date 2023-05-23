@@ -44,3 +44,7 @@ html[data-theme='dark'] .hero--primary .hero__subtitle  {
 .featureItem {
   cursor: pointer !important;
 }
+
+.featureRow {
+  justify-content: center;
+}
