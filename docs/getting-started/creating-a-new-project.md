@@ -5,7 +5,7 @@ sidebar_position: 2
 # Creating a new project
 
 Its advisable when creating a new richmedia unit to first scaffold the initial project This will save you a lot of
-time and effort. Generate (scaffold) a new banner project. This will generate all the necessary files and folder structure you need for
+time and effort. Generate or "scaffold" a new banner project. This will generate all the necessary files and folder structure you need for
 the project.
 
 ### Step 1
