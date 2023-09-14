@@ -6,16 +6,11 @@ sidebar_position: 1
 
 ### Prerequisites
 
-- [NodeJS](https://pages.github.com/)
+- [NodeJS](https://nodejs.org/en)
 
 - Terminal / Windows Powershell
 
 - Code editor ([VSCode](https://code.visualstudio.com/), [Webstorm](https://www.jetbrains.com/webstorm/))
-
-
-:::caution
-We recommend to use  **Node v16.x.x**.
-:::
 
 
 The display generator is built with the help of [Yeoman](https://yeoman.io/) which is web scaffolding tool for 
@@ -49,6 +44,17 @@ Verify Yeoman is working globally by running the following command
 ```terminal
 yo --version
 ```
+
+
+:::tip
+If you are having trouble with your user account not having admin rights with installing the generator-display-boilerplate and are working on a mac, try to use "sudo" in front of the commands. By using "sudo," the user is granted temporary administrative access, allowing them to perform tasks that require root or administrator permissions. 
+So for example:
+```terminal
+sudo npm install -g generator-display-boilerplate
+```
+:::
+
+
 
 <!-- - ejemplos FrameAnimation
 - ejemplos uso del shared
