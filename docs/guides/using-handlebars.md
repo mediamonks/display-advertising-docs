@@ -161,3 +161,21 @@ Similar to template strings. The number change now many brackets do you want to 
     <div class="mainExit fullscreen"></div>
 </div>
 ```
+
+
+### checkExtension
+
+Checks the extension of a variable or file. In this example, if the var contains an image extension, it shows an image, otherwise it shows the variable as a text string:
+
+```html title="/src/shared/index.hbs" {3}
+<div class="banner border">
+    <div class="content fullscreen">
+      {{#checkExtension this.subTitle '.png|.jpg|.jpeg'}}
+        <img src={{this.subTitle}} alt="" class="subTitle--{{@index}} subTitle fullscreen">
+      {{else}}
+        <div class="subTitle--{{@index}} subTitle">{{{this.title}}}</div>
+      {{/checkExtension}}
+    </div>
+    <div class="mainExit fullscreen"></div>
+</div>
+```
