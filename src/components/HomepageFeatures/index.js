@@ -49,7 +49,7 @@ const FeatureList = [
     Svg: require('@site/static/img/adsRecorder.svg').default,
     description: (
       <>
-        Used to records html5 ads and export multiple formats.
+        Used to record html5 ads and export into multiple formats.
       </>
     ),
   },
