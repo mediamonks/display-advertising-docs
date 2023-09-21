@@ -37,9 +37,9 @@ If you want to propose a change, it will be necessary to create a ticket informi
 6. [Discuss and review your code](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)
 7. Rebase and tests
 8. [“Merge” your branch to the master branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)
-9. [Create a new version (tag) with a message](https://docs.npmjs.com/cli/v8/commands/npm-version)
+9. [In the master branch, create a new version (tag) with a message](https://docs.npmjs.com/cli/v8/commands/npm-version)
 ```terminal
-npm version minor/major/patch -m "this has been updated"
+npm version major/minor/patch -m "this has been updated"
 ```
 11. [Push your tag to origin](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository)
 ```terminal
