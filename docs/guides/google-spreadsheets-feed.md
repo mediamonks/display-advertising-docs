@@ -26,12 +26,12 @@ As you can see it has 6 columns with the first row defining the name of the colu
 {
   "settings": {
     "bundleName": "${content.size}_${settings.version}_${settings.language}",
-    "entry":{
-        "js":"./script/main.js",
-        "html":"index.hbs"
+    "entry": {
+        "js": "./script/main.js",
+        "html": "index.hbs"
     },
-    "contentSource":{
-      "url":"https://docs.google.com/spreadsheets/d/1BImA3lgTJsbVl56GQTFT-b1dx4FIoeQFBe9WLp0wWxc/edit#gid=0",
+    "contentSource": {
+      "url": "https://docs.google.com/spreadsheets/d/1BImA3lgTJsbVl56GQTFT-b1dx4FIoeQFBe9WLp0wWxc/edit#gid=0",
       "apiKey": "API_KEY",
       "tabName": "main",
       "filter": {
@@ -39,10 +39,10 @@ As you can see it has 6 columns with the first row defining the name of the colu
       }
     }
   },
-  "content":{
-    "title":"default title",
-    "copy0":"default copy",
-    "cta":"default cta"
+  "content": {
+    "title": "default title",
+    "copy0": "default copy",
+    "cta": "default cta"
   }
 }
 ```
@@ -61,8 +61,8 @@ Another alternative for spreadsheet development is to use it similar to DCO, whe
 ```json title="/src/shared/.sharedrc" {6,7,8,9}
 ...
 {
- "contentSource":{
-    "url":"https://docs.google.com/spreadsheets/d/1rqF1F7JhaLYu9_-MPmhzztH9i5OE5XURkWpwtSv1quY/edit?usp=sharing",
+ "contentSource": {
+    "url": "https://docs.google.com/spreadsheets/d/1rqF1F7JhaLYu9_-MPmhzztH9i5OE5XURkWpwtSv1quY/edit?usp=sharing",
     "apiKey": "API_KEY",
     "tabName": "default",
     "idField": "keyField",
@@ -89,4 +89,32 @@ Another alternative for spreadsheet development is to use it similar to DCO, whe
   }
 }
 ```
+### OAuth2
 
+OAuth2 is another auth way to grab data from a spreadsheet.
+
+The main pro about it is security: you don't have to share a feed for public read.
+The main con comparing to API key is that it's a bit more complicated: 1 string vs 2.
+
+In order to use OAuth2 you simply need to remove `apiKey` property from `contentSource`
+so dev-server can switch to OAuth2 mode.
+
+```diff title="/src/shared/.sharedrc" {5}
+...
+{
+ "contentSource": {
+    ...
+-    "apiKey": "API_KEY",
+    ...
+  }
+}
+...
+```
+
+Then create a new or use an existing OAuth 2.0 Credential from your Google Console
+[https://developers.google.com/sheets/api/guides/authorizing](https://developers.google.com/sheets/api/guides/authorizing)
+
+If the feed is created under your account - no extra shares required.
+Just run `dev-server` and follow the CLI tool.
+
+And be safe!
