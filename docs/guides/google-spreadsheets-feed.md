@@ -52,6 +52,10 @@ You just need to replace API_KEY placeholder with your own generated key. You ca
  - `tabName` will let you define what tab you want to use of your spreadsheet.
  - `filter` will let you filter the only values you want. so in this example it will only select rows with the value "beauty" in the version column.
 
+:::tip
+In Windows, you can add the environmental variables "googleApiKey", "preview_accessKeySecret" and "preview_s3bucket" as a default setup. In this way you don't need to fill in an apiKey.
+:::
+
 
 
 ### Advanced example
@@ -126,7 +130,11 @@ Just run `dev-server` and follow the CLI tool.
 
 And be safe!
 
-
 :::tip
-In Windows, when using Oath2.0, make sure you disable your environmental variables googleApiKey, preview_accessKeySecret, preview_s3bucket if you have them. These will otherwise trigger your default API keys.
+In Windows, you can add the environmental variables "displayMonks_clientId" and "displayMonks_clientSecret" as a default setup.
+:::
+
+
+:::warning
+In Windows, if you want to use Oath2.0, make sure you disable your environmental variables googleApiKey, preview_accessKeySecret and preview_s3bucket if you have them. These will otherwise trigger your default API keys.
 :::
