@@ -97,7 +97,9 @@ The main pro about it is security: you don't have to share a feed for public rea
 The main con comparing to API key is that it's a bit more complicated: 1 string vs 2.
 
 In order to use OAuth2 you simply need to remove `apiKey` property from `contentSource`
-so dev-server can switch to OAuth2 mode.
+so dev-server can switch to OAuth2 mode. 
+
+
 
 ```diff title="/src/shared/.sharedrc" {5}
 ...
@@ -114,7 +116,17 @@ so dev-server can switch to OAuth2 mode.
 Then create a new or use an existing OAuth 2.0 Credential from your Google Console
 [https://developers.google.com/sheets/api/guides/authorizing](https://developers.google.com/sheets/api/guides/authorizing)
 
+![Auth2_0](/img/auth2.jpeg)
+
+**Have a little patience for the key to become active.** And then use the Client ID and CLient secret from the newly created key.
+
+
 If the feed is created under your account - no extra shares required.
 Just run `dev-server` and follow the CLI tool.
 
 And be safe!
+
+
+:::tip
+In Windows, when using Oath2.0, make sure you disable your environmental variables googleApiKey, preview_accessKeySecret, preview_s3bucket if you have them. These will otherwise trigger your default API keys.
+:::
