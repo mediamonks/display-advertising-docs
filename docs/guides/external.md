@@ -35,10 +35,21 @@ The recorder is "blind" until the banner tells it the animation is ready. You mu
 ### The Code Snippet
 Copy and paste this function at the bottom of your banner's main `.js` file (e.g., `script.js` or `main.js`).
 
+> Note: This is a **simplified recorder adapter** for external/legacy banners.  
+> In the main display-template projects, `enableAdsRecorder` is implemented as  
+> `enableAdsRecorder(timeline, config)` (see `recorder.md`). This external version
+> intentionally only accepts a `timeline` and omits the `config` argument.
+
 ```js
 /**
  * DISPLAY.MONKS RECORDER ADAPTER
  * Connects external GSAP timelines to the recording tool.
+ *
+ * NOTE:
+ * This is a simplified adapter specifically for external / legacy banners.
+ * It intentionally only accepts a GSAP `timeline` argument and does not take
+ * a `config` object, unlike the full `enableAdsRecorder(timeline, config)`
+ * implementation used inside the display-template projects (see recorder.md).
  */
 
 function enableAdsRecorder(timeline) {
