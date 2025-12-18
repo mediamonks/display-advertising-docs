@@ -68,9 +68,14 @@ function enableAdsRecorder(timeline) {
     }
 
     // Fire the handshake event
+    // Ensure a valid GSAP timeline with totalDuration() is provided
+    const duration = (timeline && typeof timeline.totalDuration === 'function')
+      ? timeline.totalDuration()
+      : (console.warn('[enableAdsRecorder] Expected a GSAP timeline with totalDuration(). Falling back to duration=0.'), 0);
+
     window.postMessage({
       name: 'animation-ready',
-      duration: timeline.totalDuration(),
+      duration: duration,
       width: width,
       height: height
     }, '*');
