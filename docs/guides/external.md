@@ -50,10 +50,10 @@ function enableAdsRecorder(timeline) {
     
     if (metaSize) {
       const content = metaSize.getAttribute('content');
-      const wMatch = content.match(/width=(\d+)/);
-      const hMatch = content.match(/height=(\d+)/);
-      if (wMatch) width = parseInt(wMatch[1]);
-      if (hMatch) height = parseInt(hMatch[1]);
+      const widthMatch = content.match(/width=(\d+)/);
+      const heightMatch = content.match(/height=(\d+)/);
+      if (widthMatch) width = parseInt(widthMatch[1]);
+      if (heightMatch) height = parseInt(heightMatch[1]);
     }
 
     // Fire the handshake event
