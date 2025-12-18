@@ -83,6 +83,9 @@ function enableAdsRecorder(timeline) {
 
   // 2. LISTEN: Wait for the recorder to ask for a specific frame
   window.addEventListener('message', (event) => {
+    if (!event.data || typeof event.data !== 'object') {
+      return;
+    }
     if (event.data.name === 'request-goto-frame') {
       // Convert ms to seconds for GSAP
       const timeInSeconds = event.data.frame / 1000;
