@@ -131,7 +131,7 @@ It is necessary to pass the parameter settings:
 
 ### compare
 
-Make validations very easy, using operators ('==', '===', '!=', '!==', '<', '>', '<=', 'typeof'):
+Make validations very easy, using operators (`==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, `typeof`):
 
 ```html title="/src/shared/index.hbs" {3,5,7,9}
 <div class="banner border">
