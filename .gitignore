@@ -108,3 +108,7 @@ dist
 .DS_Store
 .docusaurus
 build/
+
+.agents
+skills-lock.json
+.github/prompts
