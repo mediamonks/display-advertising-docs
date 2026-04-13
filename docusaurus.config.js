@@ -1,14 +1,15 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Display Advertising Documentation',
   tagline: 'All the documentation that you will need to create, develop and build display units.',
-  url: 'https://mediamonks.github.io/display-advertising-docs/',
+  url: 'https://mediamonks.github.io',
   baseUrl: '/display-advertising-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
